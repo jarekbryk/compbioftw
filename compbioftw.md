@@ -310,11 +310,7 @@ in Ubuntu or Mac
 
 #### Tutorial on scp {#tutorialonscp}
 
--   <https://www.garron.me/en/articles/scp.html>
-
-#### Curl
-
--   [curl MAN page](https://curl.haxx.se/docs/manpage.html#-x)
+- [https://www.garron.me/en/articles/scp.html](https://www.garron.me/en/articles/scp.html)
 
 #### Git basics {#gitbasics}
 
