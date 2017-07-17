@@ -3,7 +3,7 @@ Computational Biology Resources FTW
 
 ### A bunch of papers
 
-If you need a good reference or just to persuade your colleague or supervisor that she really needs to get to [where the puck is going to be](http://www.canadianbusiness.com/blogs-and-comment/stop-using-gretzky-where-the-puck-is-quote/). Actually scrape that, this train has been puffing along for quite a while now and all we can do now is not get left behind.
+If you need a good reference or just to persuade your colleague or supervisor that she really needs to get to [where the puck is going to be](http://www.canadianbusiness.com/blogs-and-comment/stop-using-gretzky-where-the-puck-is-quote/). Actually, scrape that, this train has been puffing along for quite a while now and all we can do now is not get left behind.
 
 Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
 
@@ -62,7 +62,7 @@ How to move around shell
 - `control-r` : start searching shell history (start typing to search; enter will enter the current command; `command-.` will cancel)
 - `control-v + [some key]` will literally print `[some key]` - useful if you want to enter a tab and `\t` doesn’t work
 - `history | ![some number]` where `[some number]` is a number of a history command you want to execute (no need to copy and paste)
-- You can also narrow down the last command selection by including the first letter of the last command you want to use, e.g.: `!d</code>` (if your favourite last command starts with `d`)
+- You can also narrow down the last command selection by including the first letter of the last command you want to use, e.g.: `!d` (if your favourite last command starts with `d`)
 - `!$` retrieves the last word of the last command
 
 ### Shell prompt
