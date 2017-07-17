@@ -3,6 +3,10 @@ Computational Biology Resources FTW
 
 ### A bunch of papers
 
+If you need a good reference or just to persuade your colleague or supervisor that she really needs to get to [where the puck is going to be](http://www.canadianbusiness.com/blogs-and-comment/stop-using-gretzky-where-the-puck-is-quote/). Actually scrape that, this train has been puffing along for quite a while now and all we can do now is not get left behind.
+
+Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
+
 - Loman, N. & Watson, M. [So you want to be a computational biologist?](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2740.html) Nat Biotechnol 31, 996–998 (2013).
 - Wilson, G. et al. [Best Practices for Scientific Computing.](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) PLoS Biol 12, e1001745 (2014).
 - Wilson, G. et al. [Good Enough Practices in Scientific Computing.](https://doi.org/%2010.1371/journal.pgen.1006328) PLoS Genet 13(6): e1006328 (2017)
@@ -13,7 +17,7 @@ Computational Biology Resources FTW
 In particular, do not export gene IDs and dates to Excel and then import
 it back to R or other programming tools. You have been warned.
 
-- Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004).
+- Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004). Also check this blog post (with comments), from 2012 (_sic_): [Gene name errors and Excel: lessons not learned](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/)
 - Mallona, I. & Peinado, M. A. [Truke, a web tool to check for and handle excel misidentified gene symbols.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3631-8) 1–3 (2017). doi:10.1186/s12864-017-3631-8
 
 ### Recommended general tutorials and tools on command line
