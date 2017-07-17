@@ -17,7 +17,7 @@ Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2
 In particular, do not export gene IDs and dates to Excel and then import
 it back to R or other programming tools. You have been warned.
 
-- Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004). Also check this blog post (with comments), from 2012 (_sic_): [Gene name errors and Excel: lessons not learned](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/)
+- Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004). Also check this blog post (with comments), from 2012 (_sic_): [Gene name errors and Excel: lessons not learned](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/).
 - Mallona, I. & Peinado, M. A. [Truke, a web tool to check for and handle excel misidentified gene symbols.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3631-8) 1–3 (2017). doi:10.1186/s12864-017-3631-8
 
 ### Recommended general tutorials and tools on command line
@@ -35,19 +35,17 @@ it back to R or other programming tools. You have been warned.
 
 - [Take Control: Command Line by Joe Kissell](https://www.takecontrolbooks.com/command-line) (aimed at
 Mac users, but good for everyone - as usual ;-)
-- [The UNIX workbench by Sean Kross](http://seankross.com/the-unix-workbench/introduction.html) (donationware)
+- [The UNIX workbench by Sean Kross](http://seankross.com/the-unix-workbench/introduction.html) (donationware); now with [a Coursera course](https://www.coursera.org/learn/unix)!
 
 ### Four books on computational biology I highly recommend - they will give you excellent background in various aspects of data analysis
 
 - [Practical Computing for Biologists](http://amzn.eu/bjL85Es) by Steven H.D. Haddock and Casey W. Dunn. It covers command line, Python, installing software and manipulation of graphics.
-- [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with empasis of life science data analysis, including next-generation sequencing file handling.
+- [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with empasis on life science data analysis, including next-generation sequencing file handling.
 - [R for Data Science](http://amzn.eu/3UPfxlL) by Garett Golemund and Hadley Wickham. Solid introduction to `tidyverse` ways of handling data and analysis by the creators and evangelists :-)
 - [R Graphics Cookbook](http://amzn.eu/bi8RnNQ) by Winston Chang. ggplot2 explained using clear examples akin to recipes ("if you want to plot this, do this and that").
 
 GitHub files from Vince’s book (there are some useful comments about
-setting up the Terminal etc.)
-
-- [Vince Buffalo’s GitHub account](https://github.com/vsbuffalo) and his [Book-related files on GitHub](https://github.com/vsbuffalo/bds-files)
+setting up the Terminal etc.): [Vince Buffalo’s GitHub account](https://github.com/vsbuffalo) and his [book-related files on GitHub](https://github.com/vsbuffalo/bds-files).
 
 How to move around shell
 ------------------------
@@ -62,8 +60,9 @@ How to move around shell
 - `option-f` : move cursor forwards an entire word (as above)
 - `up arrow` : access last entered command
 - `control-r` : start searching shell history (start typing to search; enter will enter the current command; `command-.` will cancel)
-- `control-v + [some key]` will literally print \[some key\] - useful if you want to enter a tab and \\tab doesn’t work
-- `history | ![some number]` where \[some number\] is a number of a history command you want to execute (no need to copy and paste)
+- `control-v + [some key]` will literally print `[some key]` - useful if you want to enter a tab and `\t` doesn’t work
+- `history | ![some number]` where `[some number]` is a number of a history command you want to execute (no need to copy and paste)
+- You can also narrow down the last command selection by including the first letter of the last command you want to use, e.g.: `!d</code>` (if your favourite last command starts with `d`)
 - `!$` retrieves the last word of the last command
 
 ### Shell prompt
@@ -74,15 +73,14 @@ Take time to make your terminal window and the font big enough!
 - How to check what's your current prompt: `echo $PS1`
 - Hot to change your prompt: `PS1="yournewprompt"`. A very nice trick is to use PS1="\n\W\u-$ " so that you have a new line before your prompt - it's visually separated from the output of a previous command.
 
-Useful link with options to modify your prompt:
-<https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html>
+Useful link with options to modify your prompt: [https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html](https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
 
-#### Difference between .bash\_profile and .bashrc
+#### Difference between .bash_profile and .bashrc
 
 This is relevant for modifying the `$PATH`:
 
-- <http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html>
-- <http://stackoverflow.com/questions/9832770/where-is-the-default-terminal-path-located-on-mac>
+- [http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+- [http://stackoverflow.com/questions/9832770/where-is-the-default-terminal-path-located-on-mac](http://stackoverflow.com/questions/9832770/where-is-the-default-terminal-path-located-on-mac)
 
 ### Clear your screen
 
