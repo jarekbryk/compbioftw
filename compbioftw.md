@@ -5,12 +5,12 @@ Computational Biology Resources FTW
 
 If you need a good reference or just to persuade your colleague or supervisor that she really needs to get to [where the puck is going to be](http://www.canadianbusiness.com/blogs-and-comment/stop-using-gretzky-where-the-puck-is-quote/). Actually, scrape that, this train has been puffing along for quite a while now and all we can do now is not get left behind.
 
-Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
-
 - Loman, N. & Watson, M. [So you want to be a computational biologist?](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2740.html) Nat Biotechnol 31, 996–998 (2013).
 - Wilson, G. et al. [Best Practices for Scientific Computing.](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) PLoS Biol 12, e1001745 (2014).
 - Wilson, G. et al. [Good Enough Practices in Scientific Computing.](https://doi.org/%2010.1371/journal.pgen.1006328) PLoS Genet 13(6): e1006328 (2017)
 - Tippmann, S. [Programming tools: Adventures with R.](http://www.nature.com/news/programming-tools-adventures-with-r-1.16609) Nature 517, 109–110 (2015).
+
+Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
 
 ### Do not use Excel for handling dates and gene identifiers
 
@@ -42,7 +42,7 @@ Mac users, but good for everyone - as usual ;-)
 - [Practical Computing for Biologists](http://amzn.eu/bjL85Es) by Steven H.D. Haddock and Casey W. Dunn. It covers command line, Python, installing software and manipulation of graphics.
 - [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with empasis on life science data analysis, including next-generation sequencing file handling.
 - [R for Data Science](http://amzn.eu/3UPfxlL) by Garett Golemund and Hadley Wickham. Solid introduction to `tidyverse` ways of handling data and analysis by the creators and evangelists :-)
-- [R Graphics Cookbook](http://amzn.eu/bi8RnNQ) by Winston Chang. ggplot2 explained using clear examples akin to recipes ("if you want to plot this, do this and that").
+- [R Graphics Cookbook](http://amzn.eu/bi8RnNQ) by Winston Chang. `ggplot2` explained using clear examples akin to recipes ("if you want to plot this, do this and that").
 
 GitHub files from Vince’s book (there are some useful comments about
 setting up the Terminal etc.): [Vince Buffalo’s GitHub account](https://github.com/vsbuffalo) and his [book-related files on GitHub](https://github.com/vsbuffalo/bds-files).
