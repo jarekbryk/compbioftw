@@ -18,7 +18,7 @@ weight_kg <- 55
 2*weight_kg
 weight_kg/5
 weight_kg + 3
-weight_lbs <- weight_kg / 2.2
+weight_lbs <- weight_kg / 2.2 # This is actually wrong but noone caught that so it stays
 
 # To display/output the contenct of an object/variable, just type its name
 weight_lbs
