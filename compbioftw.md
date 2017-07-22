@@ -45,7 +45,7 @@ This is essential. A good text editor has to support regular expressions and und
 - [Notepad++](https://notepad-plus-plus.org) on Windows.
 - [BBEdit](http://www.barebones.com/products/bbedit/) on Macs (free version is powerful enough and entirely sufficient for a beginner)
 - [Gedit](https://wiki.gnome.org/Apps/Gedit) on Linux (available by default on Ubuntu)
-- [Atom](https://atom.io) everywhere
+- [Atom](https://atom.io) on everything (it runs as a Chrome-based browser)
 
 ### Do it in style
 
@@ -61,12 +61,12 @@ Also important:
 - [How to write a reproducible example](http://adv-r.had.co.nz/Reproducibility.html). If you need to ask for R help online, this is how you do it.
 - [Reserved words in R](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html). The list is short: `if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_`.
 
-### Tools useful in teaching or just mucking about
+### Tools useful in teaching or just for mucking about
 
 - [learnr](https://rstudio.github.io/learnr/) Interactive tutorials with R Notebook and Shiny - the next big thing for teaching R in my opinion.
 - [etherpad](http://etherpad.org/#about) for collaborative real time editing (a la Google Docs). This is what Software and Data Carpentry use, but you need to host it (there are freepublic hosts available).
 - [HackMD](https://hackmd.io/features) a possibly better alternative to etherpad. Does not require hosting and uses Markdown (it formats the text automatically).
-- [UpDog](https://updog.co) A website hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page with live coding session for your students to follow. Free! (Markdown support is paid extra).
+- [UpDog](https://updog.co) A websites-hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page (30 sec. delay) with live coding session for your students to follow. Free! (Markdown support is paid extra).
 - [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
 - [ASCIinema](https://asciinema.org) Recording you shell sessions is useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
 
@@ -139,13 +139,13 @@ This is relevant for modifying the `$PATH`:
 - `ls {pear,peach}.txt` lists pear.txt and peach.txt
 - `ls -1` show output in a single column
 - `ls -alh` show output including hidden files (`-a`), in a long format (`-l`) and human-readable file sizes (`-h`)
-- `history` displays history of the commands (can be piped into a file). If you don't want the terminal to remember the history between sessions, [start with this thread on Stack Overflow](http://stackoverflow.com/questions/6709349/delete-terminal-history-in-linux#6709403)
+- `history` displays history of the commands (can be piped into a file). If you don't want the terminal to remember the history between sessions, [start with this thread on Stack Overflow](http://stackoverflow.com/questions/6709349/delete-terminal-history-in-linux#6709403).
 
 ### How to move around your folders
 
-- `cd -` : go to last directory
-- `.` : current folder
-- `..` : parent folder
+- `cd -` : go to last folder
+- `cd .` : go to a current folder
+- `cd ..` : go to a parent folder
 
 ### Four ways to go home:
 
@@ -233,7 +233,7 @@ A very cool regular expression recognition web app - you put in your input and i
 ### Capturing and replacing
 
 - `()` Capture the search results between the parentheses for use in the re- placement term
-- `\1` or `$1` Substitute the contents of the matched into the replacement term, in numerical order. Syntax depends on the text editor or language that you are using.
+- `\1` or `$1` Substitute the contents of the matched pattern with the replacement term, in numerical order. Syntax depends on the text editor or language that you are using.
 
 ### Basic grep commands
 
@@ -255,7 +255,7 @@ Other bits that didn't fit anywhere else
 - `cut` will cut out characters or columns from a delimited file
 - `cut -d":" -f2` will first split each line into columns delimited with the ":" and then extract -f2 (second) column from each line
 - `sort` can use column numbers `sort -k[number of the column]n` (n is for numerical, r is for reverse). You can combine sorting by column, i.e. first by column 3 then by 2 `sort -k 3 -k 2nr`
-- `uniq` will collapse multiple matches, but they have to be next to each other, so the file has to be first sorted by `sort`
+- `uniq` will collapse multiple matches, but they have to be next to each other, so the file has to be sorted by `sort` first
 
 ### Prevent accidental deletion or overwriting files or folders
 
@@ -268,12 +268,7 @@ Some less basic stuff
 
 ### Another book on bioinformatics
 
--   [Computational Biology - A Practical Introduction to BioData
-    Processing and Analysis with Linux, MySQL, and
-    R](http://www.amazon.co.uk/Computational-Biology-Practical-Introduction-Processing/dp/3642347487/ref=sr_1_fkmr0_1?ie=UTF8&qid=1455484205&sr=8-1-fkmr0&keywords=oComputational+Biology+-+BioData+Processing+and+Analysis)
-    by Röbbe Wünschiers (Amazon.co.uk), which includes good coverage of
-    *awk* and *sed*. The book’s website is at
-    <http://www.staff.hs-mittweida.de/~wuenschi/doku.php?id=rwbook2>.
+- [Computational Biology - A Practical Introduction to BioData Processing and Analysis with Linux, MySQL, and R](http://www.amazon.co.uk/Computational-Biology-Practical-Introduction-Processing/dp/3642347487/ref=sr_1_fkmr0_1?ie=UTF8&qid=1455484205&sr=8-1-fkmr0&keywords=oComputational+Biology+-+BioData+Processing+and+Analysis) by Röbbe Wünschiers (Amazon.co.uk), which includes good coverage of *awk* and *sed*. The book’s website is at <http://www.staff.hs-mittweida.de/~wuenschi/doku.php?id=rwbook2>.
 
 ### The extensive “missing manuals” for *awk* and *sed*
 
@@ -286,12 +281,11 @@ Some less basic stuff
 `screen -ls` list of screens\
 `screen -r [id of the screen]` to reconnect to the screen
 
-apparently there is a copy mode where I can use cursor to select and
+apparently there is a copy mode where one can use cursor to select and
 copy the contents of the terminal
 
 `source` will execute the commands inside text files as if they were put
-in directly\
-`source [filename]`
+in directly `source [filename]`
 
 dates should be in an ISO format to be sorted correctly e.g. 2010–04–19
 
@@ -299,57 +293,53 @@ data frame is a column-based data type, not row-based
 
 #### Enable NTFS read/write in MacOS
 
--   <http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/>
--   [http://osxdaily.com/2013/10/02/enable-ntfs-write-support-mac-os-x/](http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/)
+- [http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/](http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free)
+- [http://osxdaily.com/2013/10/02/enable-ntfs-write-support-mac-os-x/](http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/)
 
-`open /Volumes`\
+`open /Volumes`
 `sudo echo "LABEL=DRIVE_NAME none ntfs rw,auto,nobrowse" >> /etc/fstab`
+
+### Utitlities to handle fastq files etc.
+
+- [seqtk](https://github.com/lh3/seqtk)
+- [fastx-toolkit](http://hannonlab.cshl.edu/fastx_toolkit/download.html)
+- [emboss](http://emboss.sourceforge.net/what/)
+- [biopieces](http://maasha.github.io/biopieces/)
 
 ### Extract sequences from the fastq file
 
--   <https://www.biostars.org/p/72433/>
--   <http://linuxcommando.blogspot.co.uk/2008/04/using-awk-to-extract-lines-in-text-file.html>
--   <http://bioinformatics.cvr.ac.uk/blog/essential-awk-commands-for-next-generation-sequence-analysis/>
+- [https://www.biostars.org/p/72433/](https://www.biostars.org/p/72433/)
+- [http://linuxcommando.blogspot.co.uk/2008/04/using-awk-to-extract-lines-in-text-file.html](http://linuxcommando.blogspot.co.uk/2008/04/using-awk-to-extract-lines-in-text-file.html)
+- [http://bioinformatics.cvr.ac.uk/blog/essential-awk-commands-for-next-generation-sequence-analysis/](http://bioinformatics.cvr.ac.uk/blog/essential-awk-commands-for-next-generation-sequence-analysis/)
 
-`reads.fastq | awk '{if(NR%4==2) print length($1)}' | sort -n | uniq -c > read_length.txt`\
+`reads.fastq | awk '{if(NR%4==2) print length($1)}' | sort -n | uniq -c > read_length.txt`
 `awk '0 == (NR + 1) % 2' inputfile.txt`
 
-`cat barcount.txt | sed -E -e 's/^ +([0-9]+) [ACGTN]+/\1/' | awk 'BEGIN{total=0} {if ($1>10000) total+=$1} END{print total}'`\
-228852
+`cat barcount.txt | sed -E -e 's/^ +([0-9]+) [ACGTN]+/\1/' | awk 'BEGIN{total=0} {if ($1>10000) total+=$1} END{print total}'`
 
--   <http://stackoverflow.com/questions/19748184/unix-awk-deleting-every-two-lines>
+- [http://stackoverflow.com/questions/19748184/unix-awk-deleting-every-two-lines](http://stackoverflow.com/questions/19748184/unix-awk-deleting-every-two-lines)
 
-#### How to add Dropbox to remote machines at the command line {#howtoadddropboxtoremotemachinesatthecommandline}
+#### How to add Dropbox to remote machines at the command line 
 
--   <http://cymeandcystidium.com/2012/08/tiny-tutorial-adding-dropbox-to-remote-machines-at-the-command-line/>
+- [http://cymeandcystidium.com/2012/08/tiny-tutorial-adding-dropbox-to-remote-machines-at-the-command-line/](http://cymeandcystidium.com/2012/08/tiny-tutorial-adding-dropbox-to-remote-machines-at-the-command-line/)
 
-### Automator script to convert multiple *docx files into* .pdf (Mac only) {#automatorscripttoconvertmultipledocxfilesinto.pdfmaconly}
+### Automator script to convert multiple *docx files into* .pdf (Mac only)
 
--   <http://igikorn.com/batch-convert-word-documents-pdf/>
+- [http://igikorn.com/batch-convert-word-documents-pdf/](http://igikorn.com/batch-convert-word-documents-pdf/)
 
-### Utitlities to handle fastq files etc. {#utitlitiestohandlefastqfilesetc.}
+#### Setting up ftp proxy via command line
 
--   [seqtk](https://github.com/lh3/seqtk)
--   [fastx-toolkit](http://hannonlab.cshl.edu/fastx_toolkit/download.html)
--   [emboss](http://emboss.sourceforge.net/what/)
--   [biopieces](http://maasha.github.io/biopieces/)
+This assumes you cannot modify or don’t trust the system–wide settingsin Ubuntu or Mac.
 
-#### Setting up ftp proxy via command line {#settingupftpproxyviacommandline}
+- [HowTo: Use a Proxy on the Linux Command Line](http://www.shellhacks.com/en/HowTo-Use-a-Proxy-on-the-Linux-Command-Line)
+- [How to change proxy setting using Command line in Mac OS?](http://superuser.com/questions/316502/how-to-change-proxy-setting-using-command-line-in-mac-os)
+- [ftp MAN page](http://linux.about.com/od/commands/l/blcmdl1_ftp.htm)
 
-This assumes you cannot modify or don’t trust the system–wide settings
-in Ubuntu or Mac
-
--   [HowTo: Use a Proxy on the Linux Command
-    Line](http://www.shellhacks.com/en/HowTo-Use-a-Proxy-on-the-Linux-Command-Line)
--   [How to change proxy setting using Command line in Mac
-    OS?](http://superuser.com/questions/316502/how-to-change-proxy-setting-using-command-line-in-mac-os)
--   [ftp MAN page](http://linux.about.com/od/commands/l/blcmdl1_ftp.htm)
-
-#### Tutorial on scp {#tutorialonscp}
+#### Tutorial on scp
 
 - [https://www.garron.me/en/articles/scp.html](https://www.garron.me/en/articles/scp.html)
 
-#### Git basics {#gitbasics}
+#### Git basics
 
 `git init` to initialise repository (a tracked directory)\
 `git add` to explicitly add files to tracking (files can also be
