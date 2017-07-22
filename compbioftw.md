@@ -67,7 +67,7 @@ Also important:
 - [HackMD](https://hackmd.io/features) a possibly better alternative to etherpad. Does not require hosting and uses Markdown (it formats the text automatically).
 - [UpDog](https://updog.co) A website hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page with live coding session for your students to follow. Free! (Markdown support is paid extra).
 - [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
-- [ASCIinema](https://asciinema.org) Recording you shell sessions is super useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
+- [ASCIinema](https://asciinema.org) Recording you shell sessions is useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
 
 Shell-fu
 ------------------------
