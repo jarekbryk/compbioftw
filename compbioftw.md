@@ -324,7 +324,7 @@ data frame is a column-based data type, not row-based
 
 - [http://cymeandcystidium.com/2012/08/tiny-tutorial-adding-dropbox-to-remote-machines-at-the-command-line/](http://cymeandcystidium.com/2012/08/tiny-tutorial-adding-dropbox-to-remote-machines-at-the-command-line/)
 
-### Automator script to convert multiple *docx files into* .pdf (Mac only)
+### Automator script to convert multiple docx files into .pdf (Mac only)
 
 - [http://igikorn.com/batch-convert-word-documents-pdf/](http://igikorn.com/batch-convert-word-documents-pdf/)
 
