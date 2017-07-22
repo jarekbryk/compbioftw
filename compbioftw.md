@@ -1,9 +1,11 @@
 Computational Biology Resources FTW
 ---------------
 
+This is my ever-growing collection of links, solutions and sources I have discovered and used when trying to learn and teach computational biology. I often use it as a one-stop resource page for whomever asks me about a good book, website or that command that let's you execute line 45 from `history` to learn about handling data in shell and R.
+
 ### A bunch of papers
 
-If you need a good reference or just to persuade your colleague or supervisor that she really needs to get to [where the puck is going to be](http://www.canadianbusiness.com/blogs-and-comment/stop-using-gretzky-where-the-puck-is-quote/). Actually, scrape that, this train has been puffing along for quite a while now and all we can do now is not get left behind.
+If you need a good reference or just to persuade your colleague or supervisor that she really needs to get to [where the puck is going to be](http://www.canadianbusiness.com/blogs-and-comment/stop-using-gretzky-where-the-puck-is-quote/). Actually, scrape that, this train has been puffing along for quite a while and all we can do now is not get left behind.
 
 - Loman, N. & Watson, M. [So you want to be a computational biologist?](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2740.html) Nat Biotechnol 31, 996–998 (2013).
 - Wilson, G. et al. [Best Practices for Scientific Computing.](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) PLoS Biol 12, e1001745 (2014).
@@ -12,32 +14,7 @@ If you need a good reference or just to persuade your colleague or supervisor th
 
 Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
 
-### Do not use Excel for handling dates and gene identifiers
-
-In particular, do not export gene IDs and dates to Excel and then import
-it back to R or other programming tools. You have been warned.
-
-- Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004). Also check this blog post (with comments), from 2012 (_sic_): [Gene name errors and Excel: lessons not learned](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/).
-- Mallona, I. & Peinado, M. A. [Truke, a web tool to check for and handle excel misidentified gene symbols.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3631-8) 1–3 (2017). doi:10.1186/s12864-017-3631-8
-
-### Recommended general tutorials and tools on command line
-
-- <http://ryanstutorials.net/linuxtutorial/navigation.php>
-- <http://korflab.ucdavis.edu/Unix_and_Perl/>
-- [Software Carpentry Unix Shell lesson](http://swcarpentry.github.io/shell-novice/)
-- [explainshell.com](http://explainshell.com) will try to give you explanation for every element of a command line expression that you type in the search box (try it, it's really cool)
-
-### How to install Bash shell on Windows 10
-
-- [Bash shell on Windows 10! Pigs fly!](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
-
-### Two very useful and inexpensive books on command line
-
-- [Take Control: Command Line by Joe Kissell](https://www.takecontrolbooks.com/command-line) (aimed at
-Mac users, but good for everyone - as usual ;-)
-- [The UNIX workbench by Sean Kross](http://seankross.com/the-unix-workbench/introduction.html) (donationware); now with [a Coursera course](https://www.coursera.org/learn/unix)!
-
-### Four books on computational biology I highly recommend - they will give you excellent background in various aspects of data analysis
+### Four books on computational biology I highly recommend
 
 - [Practical Computing for Biologists](http://amzn.eu/bjL85Es) by Steven H.D. Haddock and Casey W. Dunn. It covers command line, Python, installing software and manipulation of graphics.
 - [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with empasis on life science data analysis, including next-generation sequencing file handling.
@@ -47,8 +24,89 @@ Mac users, but good for everyone - as usual ;-)
 GitHub files from Vince’s book (there are some useful comments about
 setting up the Terminal etc.): [Vince Buffalo’s GitHub account](https://github.com/vsbuffalo) and his [book-related files on GitHub](https://github.com/vsbuffalo/bds-files).
 
-How to move around shell
+### A good book to learn Python
+
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com) by Al Sweigart. The link leads to a free online version, but there are also [a hard copy](http://amzn.eu/duMXVW8) and [an ebook version](https://www.nostarch.com/automatestuff) available.
+
+### Do not use Excel for handling dates and gene identifiers
+
+In particular, do not export gene IDs and dates to Excel and then import it back to R or other programming tools. You have been warned.
+
+- Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004). Also check this blog post (with comments), from 2012 (_sic_): [Gene name errors and Excel: lessons not learned](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/).
+- Mallona, I. & Peinado, M. A. [Truke, a web tool to check for and handle excel misidentified gene symbols.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3631-8) 1–3 (2017). doi:10.1186/s12864-017-3631-8
+
+If you have to use Excel for dates, split your date into three numerical columns: year, month and day and use package [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html) to handle the dates after importing to R.
+
+### Get a good text editor
+
+This is essential. A good text editor has to support regular expressions and understand different line ending conventions. All the software below is free to use.
+
+- [Notepad++](https://notepad-plus-plus.org) on Windows.
+- [BBEdit](http://www.barebones.com/products/bbedit/) on Macs (free version is powerful enough and entirely sufficient for a beginner)
+- [Gedit](https://wiki.gnome.org/Apps/Gedit) on Linux (available by default on Ubuntu)
+- [Atom](https://atom.io) everywhere
+
+### Do it in style
+
+Code style guides for R. Pick one and stick to it.
+
+- [Hadley Wickham's R code style guide](http://adv-r.had.co.nz/Style.html)
+- [Google R code style guide](https://google.github.io/styleguide/Rguide.xml)
+- [Jean Fan's R code style guide](http://jef.works/R-style-guide/)
+
+Also important:
+
+- [Full R documentation online (including 13k+ packages)](https://www.rdocumentation.org)
+- [How to write a reproducible example](http://adv-r.had.co.nz/Reproducibility.html). If you need to ask for R help online, this is how you do it.
+- [Reserved words in R](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html). The list is short: `if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_`.
+
+### Tools useful in teaching or just mucking about
+
+- [learnr](https://rstudio.github.io/learnr/) Interactive tutorials with R Notebook and Shiny - the next big thing for teaching R in my opinion.
+- [etherpad](http://etherpad.org/#about) for collaborative real time editing (a la Google Docs). This is what Software and Data Carpentry use, but you need to host it (there are freepublic hosts available).
+- [HackMD](https://hackmd.io/features) a possibly better alternative to etherpad. Does not require hosting and uses Markdown (it formats the text automatically).
+- [UpDog](https://updog.co) A website hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page with live coding session for your students to follow. Free! (Markdown support is paid extra).
+- [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
+- [ASCIinema](https://asciinema.org) Recording you shell sessions is super useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
+
+Shell-fu
 ------------------------
+
+### Recommended general tutorials and tools on command line
+
+- <http://ryanstutorials.net/linuxtutorial/navigation.php>
+- <http://korflab.ucdavis.edu/Unix_and_Perl/>
+- [Software Carpentry Unix Shell lesson](http://swcarpentry.github.io/shell-novice/)
+- [explainshell.com](http://explainshell.com) will try to give you explanation for every element of a command line expression that you type (try it, it's really cool)
+
+### How to install Bash shell on Windows 10
+
+- [Bash shell on Windows 10! Pigs fly!](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
+
+### Two very useful and inexpensive books on command line
+
+- [Take Control: Command Line by Joe Kissell](https://www.takecontrolbooks.com/command-line) (aimed at Mac users, but good for everyone - as usual ;-)
+- [The UNIX workbench by Sean Kross](http://seankross.com/the-unix-workbench/introduction.html) (donationware); now with [a Coursera course](https://www.coursera.org/learn/unix)!
+
+### Shell prompt
+
+Take time to make your terminal window and the font big enough!
+
+- Default (at least on my machine): `\h:\W \u\$`
+- How to check what's your current prompt: `echo $PS1`
+- Hot to change your prompt: `PS1="yournewprompt"`. A nice trick is to use PS1="\n\W \u-$ " so that you have a new line before your prompt - it's visually separated from the output of a previous command.
+
+Useful link with options to modify your prompt: [https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html](https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
+
+#### Difference between .bash_profile and .bashrc
+
+This is relevant for modifying the `$PATH`:
+
+- [http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+- [http://stackoverflow.com/questions/9832770/where-is-the-default-terminal-path-located-on-mac](http://stackoverflow.com/questions/9832770/where-is-the-default-terminal-path-located-on-mac)
+
+
+### How to move around shell
 
 - `control-a` : move cursor to beginning of line
 - `control-e` : move cursor to end of line
@@ -65,27 +123,9 @@ How to move around shell
 - You can also narrow down the last command selection by including the first letter of the last command you want to use, e.g.: `!d` (if your favourite last command starts with `d`)
 - `!$` retrieves the last word of the last command
 
-### Shell prompt
-
-Take time to make your terminal window and the font big enough!
-
-- Default (at least on my machine): `\h:\W \u\$`
-- How to check what's your current prompt: `echo $PS1`
-- Hot to change your prompt: `PS1="yournewprompt"`. A very nice trick is to use PS1="\n\W\u-$ " so that you have a new line before your prompt - it's visually separated from the output of a previous command.
-
-Useful link with options to modify your prompt: [https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html](https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
-
-#### Difference between .bash_profile and .bashrc
-
-This is relevant for modifying the `$PATH`:
-
-- [http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
-- [http://stackoverflow.com/questions/9832770/where-is-the-default-terminal-path-located-on-mac](http://stackoverflow.com/questions/9832770/where-is-the-default-terminal-path-located-on-mac)
-
 ### Clear your screen
 
-[How to really clear the
-terminal](http://askubuntu.com/questions/25077/how-to-really-clear-the-terminal#25079)
+[How to really clear the terminal](http://askubuntu.com/questions/25077/how-to-really-clear-the-terminal#25079)
 
 - `clear` : clears the screen
 - `control-l` : works just like `clear`
@@ -98,7 +138,7 @@ terminal](http://askubuntu.com/questions/25077/how-to-really-clear-the-terminal#
 - `ls {pear,peach}.txt` lists pear.txt and peach.txt
 - `ls -1` show output in a single column
 - `ls -alh` show output including hidden files (`-a`), in a long format (`-l`) and human-readable file sizes (`-h`)
-- `history` displays history of the commands (can be piped into a file). If you don't want the terminal to remember the history between sessions, [start with this thread here](http://stackoverflow.com/questions/6709349/delete-terminal-history-in-linux#6709403) (it sometimes doesn't work in all systems).
+- `history` displays history of the commands (can be piped into a file). If you don't want the terminal to remember the history between sessions, [start with this thread on Stack Overflow](http://stackoverflow.com/questions/6709349/delete-terminal-history-in-linux#6709403)
 
 ### How to move around your folders
 
@@ -138,7 +178,7 @@ terminal](http://askubuntu.com/questions/25077/how-to-really-clear-the-terminal#
 
 ### Wildcards in shell (to do stuff on more than one file at a time)
 
-- `*` : a wildcard for “zero or more” instances (\*og would catch anything that ends with “og”)
+- `*` : a wildcard for “zero or more” instances (\*og would catch anything that ends with “og” including just "og")
 - `?` : a wildcard for “any single” instance (?og would catch: dog, fog, log etc.)
 - `{}` : brackets will select a range of stuff ({A..Z}, {1..3}, {apple, pear, watermelon}) (this is called “brace expansion”)
 
@@ -151,20 +191,14 @@ Regular expressions and grep
 
 ### Two useful regular expression testers
 
-...but rememeber that `grep` in Notepadd++, Ruby, JavaScript or Mac
-terminal can have slightly different implementations (i.e. not all
-functions will work or not all functions will work the same way). When
-stuff doesn't work, try `egrep` (*extended grep*) and always RTFM.
+...but rememeber that `grep` in Notepadd++, Ruby, JavaScript or Mac terminal can have slightly different implementations (i.e. not all functions will work or not all functions will work the same way). When stuff doesn't work, try `egrep` (*extended grep*) and always RTFM.
 
 - <https://regex101.com>
 - <https://regexpr.com>
 
-A very cool regular expression recognition web app - you put in your
-input and it tries to automatically find a regexp pattern to match it.
-When it works, it's like magic.
+A very cool regular expression recognition web app - you put in your input and it tries to automatically find a regexp pattern to match it. When it works, it's like magic.
 
-- [rexpy: Automatic Discovery of Regular
-  Expressions](http://rexpy.herokuapp.com)
+- [rexpy: Automatic Discovery of Regular  Expressions](http://rexpy.herokuapp.com)
 
 ### Wildcards for regular expression pattern matching
 
@@ -172,7 +206,7 @@ When it works, it's like magic.
 - `.` Any character except \\n \\r
 - `\d` Numerical digits
 - `\t` Tab
-- `\r` Return character. Also used as the generic end-of-line character in TextWrangler
+- `\r` Return character. Also used as the generic end-of-line character in BBEdit
 - `\n` Line-feed character. Also used as the generic end-of-line character in Notepad++
 - `\s` Space, tab, or end of line
 - `[A-Z]` A single character of the ranges indicated in square brackets
