@@ -11,6 +11,7 @@ If you need a good reference or just to persuade your colleague or supervisor th
 - Wilson, G. et al. [Best Practices for Scientific Computing.](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) PLoS Biol 12, e1001745 (2014).
 - Wilson, G. et al. [Good Enough Practices in Scientific Computing.](https://doi.org/%2010.1371/journal.pgen.1006328) PLoS Genet 13(6): e1006328 (2017)
 - Tippmann, S. [Programming tools: Adventures with R.](http://www.nature.com/news/programming-tools-adventures-with-r-1.16609) Nature 517, 109–110 (2015).
+- Lindsay Barone, Jason Williams, David Micklos [Unmet Needs for Analyzing Biological Big Data: A Survey of 704 NSF Principal Investigators](http://www.biorxiv.org/content/early/2017/02/15/108555) (2017) bioRxiv 108555; doi: https://doi.org/10.1101/108555
 
 Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
 
