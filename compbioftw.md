@@ -313,6 +313,7 @@ data frame is a column-based data type, not row-based
 - [http://bioinformatics.cvr.ac.uk/blog/essential-awk-commands-for-next-generation-sequence-analysis/](http://bioinformatics.cvr.ac.uk/blog/essential-awk-commands-for-next-generation-sequence-analysis/)
 
 `reads.fastq | awk '{if(NR%4==2) print length($1)}' | sort -n | uniq -c > read_length.txt`
+
 `awk '0 == (NR + 1) % 2' inputfile.txt`
 
 `cat barcount.txt | sed -E -e 's/^ +([0-9]+) [ACGTN]+/\1/' | awk 'BEGIN{total=0} {if ($1>10000) total+=$1} END{print total}'`
