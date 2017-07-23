@@ -79,9 +79,9 @@ Also important:
 
 ### R tutorials I like
 
-- Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course [Data wrangling, exploration, and analysis with R](http://stat545.com) and her [Tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
+- Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course [Data wrangling, exploration, and analysis with R](http://stat545.com) and her [tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
 
-- Above mentioned David Robinson's step-by-step demonstrations of teaching exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
+- Above mentioned David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
 	
 - Julia Silge's amazing [text mining walkthroughs](https://juliasilge.com). She also has a book: [Text Mining with R](http://tidytextmining.com) (free  online version), [paid hardcopy](http://amzn.eu/iyxDk34).
 
