@@ -49,7 +49,7 @@ This is essential. A good text editor has to support regular expressions and und
 
 ### Do it in style
 
-Code style guides for R. Pick one and stick to it.
+Code style guides for R. Pick one and stick to it:
 
 - [Hadley Wickham's R code style guide](http://adv-r.had.co.nz/Style.html)
 - [Google R code style guide](https://google.github.io/styleguide/Rguide.xml)
@@ -69,6 +69,23 @@ Also important:
 - [UpDog](https://updog.co) A websites-hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page (30 sec. delay) with live coding session for your students to follow. Free! (Markdown support is paid extra).
 - [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
 - [ASCIinema](https://asciinema.org) Recording you shell sessions is useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
+- [Choose an open source license](https://choosealicense.com): great source to figure out in plain English what license to use for your open source project.
+
+### Some teaching ideology
+
+- Software Carpentry's founder Greg Wilson's book on teaching programming: [How to Teach Programming (And Other Things)](http://third-bit.com/2017/05/31/how-to-teach-programming.html). Free versions available [on his site](http://third-bit.com/teaching/), as an [epub](http://third-bit.com/teaching.epub), [mobi](http://third-bit.com/teaching.mobi) or as [a low-cost hard copy](http://www.lulu.com/shop/greg-wilson/how-to-teach-programming-and-other-things/paperback/product-23200026.html).
+
+- Stack Overflow's David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R. 
+
+### R tutorials I like
+
+- Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course [Data wrangling, exploration, and analysis with R](http://stat545.com) and her [Tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
+
+- Above mentioned David Robinson's step-by-step demonstrations of teaching exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
+	
+- Julia Silge's amazing [text mining walkthroughs](https://juliasilge.com). She also has a book: [Text Mining with R](http://tidytextmining.com) (free  online version), [paid hardcopy](http://amzn.eu/iyxDk34).
+
+- Software and Data carpentry R lessons are very inconsistent in their depth and scope, but I think the [Data Carpentry R Ecology Lesson](http://www.datacarpentry.org/R-ecology-lesson/) is the best one to start with.
 
 Shell-fu
 ------------------------
@@ -261,43 +278,32 @@ Other bits that didn't fit anywhere else
 
 - `rm -i` flag `-i` will prompt you to confirm before proceeding to remove. It can be used with other commands, such as `mv`.
 
-------------------------------------------------------------------------
-
 Some less basic stuff
 ---------------------
 
+### Git basics
+
+Jenny Brian's book about Git for R users is great: [Happy Git and GitHub for the useR](http://happygitwithr.com).
+
+`git init` to initialise repository (a tracked directory)
+`git remote add origin https://github.com/jarekbryk/example_repository.git` to add remote repository link for local tracking
+`git add [files]` to explicitly add [files] to tracking (files can also be explicitly ignored with `git ignore`)
+`git commit` to “upload” the tracked version to a repository, always with a [comment] on what was done `git commit -m"[your comment here]"
+`git status` to check, er, status
+`git diff` to check differences between committed version and current
+version (I think it must be done before add?)
+`git log` to list all commits in reverse chronological order
+`git -u push origin master` to upload local changes ("master) to github ("origin"):
+`git remote -v` to check if it was pushed all right (?)
+
 ### Another book on bioinformatics
 
-- [Computational Biology - A Practical Introduction to BioData Processing and Analysis with Linux, MySQL, and R](http://www.amazon.co.uk/Computational-Biology-Practical-Introduction-Processing/dp/3642347487/ref=sr_1_fkmr0_1?ie=UTF8&qid=1455484205&sr=8-1-fkmr0&keywords=oComputational+Biology+-+BioData+Processing+and+Analysis) by Röbbe Wünschiers (Amazon.co.uk), which includes good coverage of *awk* and *sed*. The book’s website is at <http://www.staff.hs-mittweida.de/~wuenschi/doku.php?id=rwbook2>.
+- [Computational Biology - A Practical Introduction to BioData Processing and Analysis with Linux, MySQL, and R](http://amzn.eu/8neMyWC) by Röbbe Wünschiers (Amazon.co.uk), which includes good coverage of *awk* and *sed*. The book’s website is at [http://www.staff.hs-mittweida.de/~wuenschi/doku.php?id=rwbook2](http://www.staff.hs-mittweida.de/~wuenschi/doku.php?id=rwbook2).
 
 ### The extensive “missing manuals” for *awk* and *sed*
 
--   [AWK](http://www.grymoire.com/Unix/Awk.html#TOC)
--   [SED](http://www.grymoire.com/Unix/Sed.html#TOC)
-
-**screen**
-
-`Ctrl-a` d to disconnect from the screen\
-`screen -ls` list of screens\
-`screen -r [id of the screen]` to reconnect to the screen
-
-apparently there is a copy mode where one can use cursor to select and
-copy the contents of the terminal
-
-`source` will execute the commands inside text files as if they were put
-in directly `source [filename]`
-
-dates should be in an ISO format to be sorted correctly e.g. 2010–04–19
-
-data frame is a column-based data type, not row-based
-
-#### Enable NTFS read/write in MacOS
-
-- [http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/](http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free)
-- [http://osxdaily.com/2013/10/02/enable-ntfs-write-support-mac-os-x/](http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/)
-
-`open /Volumes`
-`sudo echo "LABEL=DRIVE_NAME none ntfs rw,auto,nobrowse" >> /etc/fstab`
+- [AWK](http://www.grymoire.com/Unix/Awk.html#TOC)
+- [SED](http://www.grymoire.com/Unix/Sed.html#TOC)
 
 ### Utitlities to handle fastq files etc.
 
@@ -320,49 +326,44 @@ data frame is a column-based data type, not row-based
 
 - [http://stackoverflow.com/questions/19748184/unix-awk-deleting-every-two-lines](http://stackoverflow.com/questions/19748184/unix-awk-deleting-every-two-lines)
 
-#### How to add Dropbox to remote machines at the command line 
+### Enable NTFS read/write in macOS
 
-- [http://cymeandcystidium.com/2012/08/tiny-tutorial-adding-dropbox-to-remote-machines-at-the-command-line/](http://cymeandcystidium.com/2012/08/tiny-tutorial-adding-dropbox-to-remote-machines-at-the-command-line/)
+This will let you read anc write to a Windows partition from macOS:
+- [http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/](http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free)
+- [http://osxdaily.com/2013/10/02/enable-ntfs-write-support-mac-os-x/](http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/)
 
-### Automator script to convert multiple docx files into .pdf (Mac only)
+`open /Volumes`
+`sudo echo "LABEL=DRIVE_NAME none ntfs rw,auto,nobrowse" >> /etc/fstab`
 
-- [http://igikorn.com/batch-convert-word-documents-pdf/](http://igikorn.com/batch-convert-word-documents-pdf/)
+### Enable ext4 read in macOS
 
-#### Setting up ftp proxy via command line
+This will let you read from a Linux partition on macOS:
 
-This assumes you cannot modify or don’t trust the system–wide settingsin Ubuntu or Mac.
+- Install [FUSE for macOS](https://osxfuse.github.io)
+- Install [ext4fuse](https://github.com/gerard/ext4fuse)
+
+I am still working on it - I only managed to get read access when root...
+
+### Setting up ftp proxy via command line
+
+This assumes you cannot modify or don’t trust the system–wide settings in Ubuntu/Mac.
 
 - [HowTo: Use a Proxy on the Linux Command Line](http://www.shellhacks.com/en/HowTo-Use-a-Proxy-on-the-Linux-Command-Line)
 - [How to change proxy setting using Command line in Mac OS?](http://superuser.com/questions/316502/how-to-change-proxy-setting-using-command-line-in-mac-os)
-- [ftp MAN page](http://linux.about.com/od/commands/l/blcmdl1_ftp.htm)
 
-#### Tutorial on scp
+### How to use `screen`
 
-- [https://www.garron.me/en/articles/scp.html](https://www.garron.me/en/articles/scp.html)
+`Ctrl-a` d to disconnect from the screen\
+`screen -ls` list of screens\
+`screen -r [id of the screen]` to reconnect to the screen
 
-#### Git basics
+### Random stuff
 
-`git init` to initialise repository (a tracked directory)\
-`git add` to explicitly add files to tracking (files can also be
-explicitly ignored)\
-`git commit` to “upload” the tracked version to a repository\
-`git status` to check\
-`git diff` to check differences between committed version and current
-version (must be done before add?)\
-`git log` to list all commits in reverse chronological order
+- [Automator script to convert multiple docx files into .pdf (Mac only)](http://igikorn.com/batch-convert-word-documents-pdf/)
 
-To push local repository to github:
+- [Tutorial on secure copy `scp`](https://www.garron.me/en/articles/scp.html) (see also [ftp MAN page](http://linux.about.com/od/commands/l/blcmdl1_ftp.htm))
 
-`git remote add origin https://github.com/jarekbryk/example_repository.git`
-(all in one line)
+- [How to add Dropbox to remote machines at the command line ](http://cymeandcystidium.com/2012/08/tiny-tutorial-adding-dropbox-to-remote-machines-at-the-command-line/)
 
-To check if it was pushed all right:
-
-`git remote -v`
-
-**origin** is the remote\
-**master** is the local one
-
-To synchronise the local with the remote:
-
-`git -u push origin master` (it pushes TO origin FROM master)
+- Apparently there is a copy mode where one can use cursor to select and
+copy the contents of the terminal.
