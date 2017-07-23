@@ -123,7 +123,6 @@ This is relevant for modifying the `$PATH`:
 - [http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html](http://www.joshstaiger.org/archives/2005/07/bash_profile_vs.html)
 - [http://stackoverflow.com/questions/9832770/where-is-the-default-terminal-path-located-on-mac](http://stackoverflow.com/questions/9832770/where-is-the-default-terminal-path-located-on-mac)
 
-
 ### How to move around shell
 
 - `control-a` : move cursor to beginning of line
@@ -285,16 +284,16 @@ Some less basic stuff
 
 Jenny Brian's book about Git for R users is great: [Happy Git and GitHub for the useR](http://happygitwithr.com).
 
-`git init` to initialise repository (a tracked directory)
-`git remote add origin https://github.com/jarekbryk/example_repository.git` to add remote repository link for local tracking
-`git add [files]` to explicitly add [files] to tracking (files can also be explicitly ignored with `git ignore`)
-`git commit` to “upload” the tracked version to a repository, always with a [comment] on what was done `git commit -m"[your comment here]"
-`git status` to check, er, status
-`git diff` to check differences between committed version and current
+- `git init` to initialise repository (a tracked directory)
+- `git remote add origin https://github.com/jarekbryk/example_repository.git` to add remote repository link for local tracking
+- `git add [files]` to explicitly add [files] to tracking (files can also be explicitly ignored with `git ignore`)
+- `git commit` to “upload” the tracked version to a repository, always with a [comment] on what was done `git commit -m"[your comment here]"
+- `git status` to check, er, status
+- `git diff` to check differences between committed version and current
 version (I think it must be done before add?)
-`git log` to list all commits in reverse chronological order
-`git -u push origin master` to upload local changes ("master) to github ("origin"):
-`git remote -v` to check if it was pushed all right (?)
+- `git log` to list all commits in reverse chronological order
+- `git -u push origin master` to upload local changes ("master) to github ("origin"):
+- `git remote -v` to check if it was pushed all right (?)
 
 ### Another book on bioinformatics
 
