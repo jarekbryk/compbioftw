@@ -66,7 +66,7 @@ Also important:
 - [learnr](https://rstudio.github.io/learnr/) Interactive tutorials with R Notebook and Shiny - the next big thing for teaching R in my opinion.
 - [etherpad](http://etherpad.org/#about) for collaborative real time editing (a la Google Docs). This is what Software and Data Carpentry use, but you need to host it (there are freepublic hosts available).
 - [HackMD](https://hackmd.io/features) a possibly better alternative to etherpad. Does not require hosting and uses Markdown (it formats the text automatically).
-- [UpDog](https://updog.co) A websites-hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page (30 sec. delay) with live coding session for your students to follow. Free! (Markdown support is paid extra).
+- [UpDog](https://updog.co) A websites-hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page (30 sec. delay) with live coding session for your students to follow. Free! (Markdown support is paid extra). See also this tweet from [Cloudstitch](https://cloudstitch.com): [Power a Jekyll Blog from Google Drive with just a 2 minute setup](https://twitter.com/cloudstitch/status/883022617690554368).
 - [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
 - [ASCIinema](https://asciinema.org) Recording you shell sessions is useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
 - [Choose an open source license](https://choosealicense.com): great source to figure out in plain English what license to use for your open source project.
@@ -81,11 +81,16 @@ Also important:
 
 - Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course [Data wrangling, exploration, and analysis with R](http://stat545.com) and her [tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
 
-- Above mentioned David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
+- Above-mentioned David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
 	
-- Julia Silge's amazing [text mining walkthroughs](https://juliasilge.com). She also has a book: [Text Mining with R](http://tidytextmining.com) (free  online version), [paid hardcopy](http://amzn.eu/iyxDk34).
+- Julia Silge's amazing [text mining walkthroughs](https://juliasilge.com). She also has a book: [Text Mining with R](http://tidytextmining.com) (free online version), [paid hardcopy](http://amzn.eu/iyxDk34).
 
-- Software and Data carpentry R lessons are very inconsistent in their depth and scope, but I think the [Data Carpentry R Ecology Lesson](http://www.datacarpentry.org/R-ecology-lesson/) is the best one to start with.
+- Software and Data carpentry R lessons are inconsistent in their depth and scope, but I think the [Data Carpentry R Ecology Lesson](http://www.datacarpentry.org/R-ecology-lesson/) is the best one to start with.
+
+Two classics:
+
+- Code School's [Try R](http://tryr.codeschool.com) - R console is emulated in the browser, no R installation necessary.
+- Swirl: [Learn R, in R](http://swirlstats.com) - when you have R installed, try this package first.
 
 Shell-fu
 ------------------------
