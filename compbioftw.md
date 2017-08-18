@@ -58,6 +58,7 @@ Code style guides for R. Pick one and stick to it:
 
 Also important:
 
+- [Naming things](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf) Jenny Bryan's definitive slides on how to name things FTW
 - [Full R documentation online (including 13k+ packages)](https://www.rdocumentation.org)
 - [How to write a reproducible example](http://adv-r.had.co.nz/Reproducibility.html). If you need to ask for R help online, this is how you do it.
 - [Reserved words in R](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html). The list is short: `if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_`.
