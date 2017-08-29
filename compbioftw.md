@@ -23,8 +23,7 @@ Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2
 - [R for Data Science](http://amzn.eu/3UPfxlL) by Garett Golemund and Hadley Wickham. Solid introduction to `tidyverse` ways of handling data and analysis by the creators and evangelists :-)
 - [R Graphics Cookbook](http://amzn.eu/bi8RnNQ) by Winston Chang. `ggplot2` explained using clear examples akin to recipes ("if you want to plot this, do this and that").
 
-GitHub files from Vince’s book (there are some useful comments about
-setting up the Terminal etc.): [Vince Buffalo’s GitHub account](https://github.com/vsbuffalo) and his [book-related files on GitHub](https://github.com/vsbuffalo/bds-files).
+GitHub files from Vince’s book (there are some useful comments about setting up the Terminal etc.): [Vince Buffalo’s GitHub account](https://github.com/vsbuffalo) and his [book-related files on GitHub](https://github.com/vsbuffalo/bds-files).
 
 ### A good book to learn Python
 
@@ -43,7 +42,7 @@ If you have to use Excel for dates, split your date into three numerical columns
 
 This is essential. A good text editor has to support regular expressions and understand different line ending conventions. All the software below is free to use.
 
-- [Notepad++](https://notepad-plus-plus.org) on Windows.
+- [Notepad++](https://notepad-plus-plus.org) on Windows
 - [BBEdit](http://www.barebones.com/products/bbedit/) on Macs (free version is powerful enough and entirely sufficient for a beginner)
 - [Gedit](https://wiki.gnome.org/Apps/Gedit) on Linux (available by default on Ubuntu)
 - [Atom](https://atom.io) on everything (it runs as a Chrome-based browser)
@@ -66,7 +65,7 @@ Also important:
 ### Tools useful in teaching or just for mucking about
 
 - [learnr](https://rstudio.github.io/learnr/) Interactive tutorials with R Notebook and Shiny - the next big thing for teaching R in my opinion.
-- [etherpad](http://etherpad.org/#about) for collaborative real time editing (a la Google Docs). This is what Software and Data Carpentry use, but you need to host it (there are freepublic hosts available).
+- [etherpad](http://etherpad.org/#about) for collaborative real time editing (a la Google Docs). This is what Software and Data Carpentry use, but you need to host it (there are free public hosts available).
 - [HackMD](https://hackmd.io/features) a possibly better alternative to etherpad. Does not require hosting and uses Markdown (it formats the text automatically).
 - [UpDog](https://updog.co) A websites-hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page (30 sec. delay) with live coding session for your students to follow. Free! (Markdown support is paid extra). See also this tweet from [Cloudstitch](https://cloudstitch.com): [Power a Jekyll Blog from Google Drive with just a 2 minute setup](https://twitter.com/cloudstitch/status/883022617690554368).
 - [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
