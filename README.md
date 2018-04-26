@@ -11,7 +11,7 @@ If you need a good reference or just to persuade your colleague or supervisor th
 - Wilson, G. et al. [Best Practices for Scientific Computing.](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) PLoS Biol 12, e1001745 (2014).
 - Wilson, G. et al. [Good Enough Practices in Scientific Computing.](https://doi.org/%2010.1371/journal.pgen.1006328) PLoS Genet 13(6): e1006328 (2017)
 - Tippmann, S. [Programming tools: Adventures with R.](http://www.nature.com/news/programming-tools-adventures-with-r-1.16609) Nature 517, 109–110 (2015).
-- Lindsay Barone, Jason Williams, David Micklos [Unmet Needs for Analyzing Biological Big Data: A Survey of 704 NSF Principal Investigators](http://www.biorxiv.org/content/early/2017/02/15/108555) (2017) bioRxiv 108555; doi: https://doi.org/10.1101/108555
+- Lindsay Barone, Jason Williams, David Micklos [Unmet Needs for Analyzing Biological Big Data: A Survey of 704 NSF Principal Investigators](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005755) (2017) PLoS Comput Biol 13(10): e1005755
 - Melissa A. Wilson Sayres et al. [Bioinformatics Core Competencies for Undergraduate Life Sciences Education](http://www.biorxiv.org/content/early/2017/08/03/170993) (2017) bioRxiv 170993; doi: https://doi.org/10.1101/170993
 
 Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
@@ -59,7 +59,7 @@ Also important:
 
 - [Naming things](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf) Jenny Bryan's definitive slides on how to name things FTW
 - [Full R documentation online (including 13k+ packages)](https://www.rdocumentation.org)
-- [How to write a reproducible example](http://adv-r.had.co.nz/Reproducibility.html). If you need to ask for R help online, this is how you do it.
+- [How to write a reproducible example](http://adv-r.had.co.nz/Reproducibility.html). If you need to ask for R help online, this is how you do it. Now in a form of R package: [reprex](http://reprex.tidyverse.org).
 - [Reserved words in R](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html). The list is short: `if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_`.
 
 ### Tools useful in teaching or just for mucking about
@@ -76,7 +76,9 @@ Also important:
 
 - Software Carpentry's founder Greg Wilson's book on teaching programming: [How to Teach Programming (And Other Things)](http://third-bit.com/2017/05/31/how-to-teach-programming.html). Free versions available [on his site](http://third-bit.com/teaching/), as an [epub](http://third-bit.com/teaching.epub), [mobi](http://third-bit.com/teaching.mobi) or as [a low-cost hard copy](http://www.lulu.com/shop/greg-wilson/how-to-teach-programming-and-other-things/paperback/product-23200026.html).
 
-- Stack Overflow's David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R. 
+- Brown, N. and Wilson, G. [Ten quick tips for teaching programming](http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1006023&type=printable), PLoS Comput Biol 14(4): e1006023 (2018).
+
+- David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R. 
 
 ### R tutorials I like
 
@@ -207,6 +209,8 @@ This is relevant for modifying the `$PATH`:
 
 Regular expressions and grep
 ----------------------------
+
+[xkcd #208](https://xkcd.com/208/)
 
 ### Everything you wanted to know about regular expressions
 
@@ -370,5 +374,4 @@ This assumes you cannot modify or don’t trust the system–wide settings in Ub
 
 - [How to add Dropbox to remote machines at the command line ](http://cymeandcystidium.com/2012/08/tiny-tutorial-adding-dropbox-to-remote-machines-at-the-command-line/)
 
-- Apparently there is a copy mode where one can use cursor to select and
-copy the contents of the terminal.
+- [How to configure R/R Studio to use proxy connection](https://support.rstudio.com/hc/en-us/articles/200488488-Configuring-R-to-Use-an-HTTP-or-HTTPS-Proxy)
