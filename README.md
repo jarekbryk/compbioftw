@@ -9,17 +9,17 @@ If you need a good reference or just to persuade your colleague or supervisor th
 
 - Loman, N. & Watson, M. [So you want to be a computational biologist?](http://www.nature.com/nbt/journal/v31/n11/full/nbt.2740.html) Nat Biotechnol 31, 996–998 (2013).
 - Wilson, G. et al. [Best Practices for Scientific Computing.](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) PLoS Biol 12, e1001745 (2014).
-- Wilson, G. et al. [Good Enough Practices in Scientific Computing.](https://doi.org/%2010.1371/journal.pgen.1006328) PLoS Genet 13(6): e1006328 (2017)
+- Wilson, G. et al. [Good Enough Practices in Scientific Computing.](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) PLoS Comput Biol 13, e1005510 (2017).
 - Tippmann, S. [Programming tools: Adventures with R.](http://www.nature.com/news/programming-tools-adventures-with-r-1.16609) Nature 517, 109–110 (2015).
 - Lindsay Barone, Jason Williams, David Micklos [Unmet Needs for Analyzing Biological Big Data: A Survey of 704 NSF Principal Investigators](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005755) (2017) PLoS Comput Biol 13(10): e1005755
-- Melissa A. Wilson Sayres et al. [Bioinformatics Core Competencies for Undergraduate Life Sciences Education](http://www.biorxiv.org/content/early/2017/08/03/170993) (2017) bioRxiv 170993; doi: https://doi.org/10.1101/170993
+- Melissa A. Wilson Sayres et al. [Bioinformatics Core Competencies for Undergraduate Life Sciences Education](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196878) PLoS ONE 13, e0196878–20 (2018).
 
 Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
 
 ### Four books on computational biology I highly recommend
 
 - [Practical Computing for Biologists](http://amzn.eu/bjL85Es) by Steven H.D. Haddock and Casey W. Dunn. It covers command line, Python, installing software and manipulation of graphics.
-- [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with empasis on life science data analysis, including next-generation sequencing file handling.
+- [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with emphasis on life science data analysis, including next-generation sequencing file handling.
 - [R for Data Science](http://amzn.eu/3UPfxlL) by Garett Golemund and Hadley Wickham. Solid introduction to `tidyverse` ways of handling data and analysis by the creators and evangelists :-)
 - [R Graphics Cookbook](http://amzn.eu/bi8RnNQ) by Winston Chang. `ggplot2` explained using clear examples akin to recipes ("if you want to plot this, do this and that").
 
@@ -36,7 +36,7 @@ In particular, do not export gene IDs and dates to Excel and then import it back
 - Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004). Also check this blog post (with comments), from 2012 (_sic_): [Gene name errors and Excel: lessons not learned](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/).
 - Mallona, I. & Peinado, M. A. [Truke, a web tool to check for and handle excel misidentified gene symbols.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3631-8) 1–3 (2017). doi:10.1186/s12864-017-3631-8
 
-If you have to use Excel for dates, split your date into three numerical columns: year, month and day and use package [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html) to handle the dates after importing to R.
+If you have to use Excel for dates, split your date into three numerical columns: year, month and day and use package [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html) to handle the dates after importing to R. Also, here is [a good website with tricks for power users](https://chandoo.org/wp/35-tips-data-analysis-in-excel/) and here is [a website which explains R data structures for people coming from Excel](http://rex-analytics.com/r-for-excel-users/).
 
 ### Get a good text editor
 
@@ -78,22 +78,35 @@ Also important:
 
 - Brown, N. and Wilson, G. [Ten quick tips for teaching programming](http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1006023&type=printable), PLoS Comput Biol 14(4): e1006023 (2018).
 
-- David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R. 
+- David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R.
+
+- Mine Cetinkaya-Rundel teaches stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. She is very smart and very brave. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the last useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science) detailing how she does it.
 
 ### R tutorials I like
 
 - Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course [Data wrangling, exploration, and analysis with R](http://stat545.com) and her [tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
 
 - Above-mentioned David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
-	
+
 - Julia Silge's amazing [text mining walkthrough](https://juliasilge.com/blog/gender-pronouns/). She also has a book: [Text Mining with R](http://tidytextmining.com) (free online version), [paid hardcopy](http://amzn.eu/iyxDk34).
 
-- Software and Data carpentry R lessons are inconsistent in their depth and scope, but I think the [Data Carpentry R Ecology Lesson](http://www.datacarpentry.org/R-ecology-lesson/) is the best one to start with.
+- Software and Data carpentry R lessons are a bit inconsistent in their depth and scope, but I think the [Data Carpentry R Ecology Lesson](http://www.datacarpentry.org/R-ecology-lesson/) is the best one to start with.
 
 Two classics:
 
 - Code School's [Try R](http://tryr.codeschool.com) - R console is emulated in the browser, no R installation necessary.
 - Swirl: [Learn R, in R](http://swirlstats.com) - when you have R installed, try this package first.
+
+### Do not let Jenny Bryan set your computer on fire!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The only two things that make <a href="https://twitter.com/JennyBryan?ref_src=twsrc%5Etfw">@JennyBryan</a> 😤😠🤯. Instead use projects + here::here() <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/GwxnHePL4n">pic.twitter.com/GwxnHePL4n</a></p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/940021008764846080?ref_src=twsrc%5Etfw">December 11, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+...use the right way to organise your R work:
+
+- [Project-oriented workflow](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) where Jenny Bryan explains what's up with burning of the computers.
+- [File organisation best practices](https://andrewbtran.github.io/NICAR/2018/workflow/docs/01-workflow_intro.html) by Andrew Tran that summarises and builds on Jenny's and Joris Muller's solutions.
+- [Ten Simple Rules for Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285) PLoS Comput Biol 9, e1003285 (2013).
+
 
 Shell-fu
 ------------------------
@@ -223,9 +236,11 @@ Regular expressions and grep
 - <https://regex101.com>
 - <https://regexpr.com>
 
-A very cool regular expression recognition web app - you put in your input and it tries to automatically find a regexp pattern to match it. When it works, it's like magic.
+A cool regular expression recognition web app - you put in your input and it tries to automatically find a regexp pattern to match it. When it works, it's like magic.
 
 - [rexpy: Automatic Discovery of Regular  Expressions](http://rexpy.herokuapp.com)
+
+There is now also a way of testing and visualising regular expressions inside R studio: [Regexplain](https://www.garrickadenbuie.com/project/regexplain/) by Garrick Aden-Buie.
 
 ### Wildcards for regular expression pattern matching
 
@@ -297,7 +312,7 @@ Jenny Brian's book about Git for R users is great: [Happy Git and GitHub for the
 - `git init` to initialise repository (a tracked directory)
 - `git remote add origin https://github.com/jarekbryk/example_repository.git` to add remote repository link for local tracking
 - `git add [files]` to explicitly add [files] to tracking (files can also be explicitly ignored with `git ignore`)
-- `git commit` to “upload” the tracked version to a repository, always with a [comment] on what was done `git commit -m"[your comment here]"
+- `git commit` to “upload” the tracked version to a repository, always with a [comment] on what was done `git commit -m"[your comment here]"``
 - `git status` to check, er, status
 - `git diff` to check differences between committed version and current
 version (I think it must be done before add?)
@@ -311,8 +326,10 @@ version (I think it must be done before add?)
 
 ### The extensive “missing manuals” for *awk* and *sed*
 
-- [AWK](http://www.grymoire.com/Unix/Awk.html#TOC)
-- [SED](http://www.grymoire.com/Unix/Sed.html#TOC)
+- [Awk](http://www.grymoire.com/Unix/Awk.html#TOC)
+- [Sed](http://www.grymoire.com/Unix/Sed.html#TOC)
+
+And a very good tutorial that let's you use Awk right away: [Why you should learn just a little Awk: An Awk tutorial by Example](https://gregable.com/2010/09/why-you-should-know-just-little-awk.html) by Greg Grothaus.
 
 ### Utitlities to handle fastq files etc.
 
