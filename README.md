@@ -80,13 +80,15 @@ Also important:
 
 - David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R.
 
-- Mine Cetinkaya-Rundel teaches stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. She is very smart and very brave. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the last useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science) detailing how she does it.
+- Jenny Bryan's [Happy Git and GitHub for the useR](http://happygitwithr.com) for using version control in general, and in R/R Studio in particular.
+
+- Mine Cetinkaya-Rundel teaches stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the last useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course that she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science).
 
 ### R tutorials I like
 
 - Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course [Data wrangling, exploration, and analysis with R](http://stat545.com) and her [tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
 
-- Above-mentioned David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
+- David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
 
 - Julia Silge's amazing [text mining walkthrough](https://juliasilge.com/blog/gender-pronouns/). She also has a book: [Text Mining with R](http://tidytextmining.com) (free online version), [paid hardcopy](http://amzn.eu/iyxDk34).
 
@@ -103,13 +105,12 @@ Two classics:
 
 ...use the right way to organise your R work:
 
+- [Prime Hints For Running A Data Project In R](https://kkulma.github.io/2018-03-18-Prime-Hints-for-Running-a-data-project-in-R/) by Kasia Kulma, with tips from commenters incorporated into her post.  The best post on the topic that I know of.
 - [Project-oriented workflow](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) where Jenny Bryan explains what's up with burning of the computers.
-- [Prime Hints For Running A Data Project In R](https://kkulma.github.io/2018-03-18-Prime-Hints-for-Running-a-data-project-in-R/) by Kasia Kulma, with excellent tips from commenters incorporated into her post.
 - [File organisation best practices](https://andrewbtran.github.io/NICAR/2018/workflow/docs/01-workflow_intro.html) by Andrew Tran that summarises and builds on Jenny's and Joris Muller's solutions.
-- [Ten Simple Rules for Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285) PLoS Comput Biol 9, e1003285 (2013).
+- Sandve, G. K., Nekrutenko, A., Taylor, J. & Hovig, E. [Ten Simple Rules for Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285) PLoS Comput Biol 9, e1003285 (2013).
 
-
-Shell-fu
+Shell-fu ####
 ------------------------
 
 ### Recommended general tutorials and tools on command line
