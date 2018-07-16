@@ -225,7 +225,7 @@ This is relevant for modifying the `$PATH`:
 Regular expressions and grep
 ----------------------------
 
-[xkcd #208](https://xkcd.com/208/)
+<blockquote class="twitter-tweet" data-lang="en">![xkcd #208](https://imgs.xkcd.com/comics/regular_expressions.png "xkcd #208")</blockquote>
 
 ### Everything you wanted to know about regular expressions
 
