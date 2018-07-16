@@ -104,6 +104,7 @@ Two classics:
 ...use the right way to organise your R work:
 
 - [Project-oriented workflow](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) where Jenny Bryan explains what's up with burning of the computers.
+- [Prime Hints For Running A Data Project In R](https://kkulma.github.io/2018-03-18-Prime-Hints-for-Running-a-data-project-in-R/) by Kasia Kulma, with excellent tips from commenters incorporated into her post.
 - [File organisation best practices](https://andrewbtran.github.io/NICAR/2018/workflow/docs/01-workflow_intro.html) by Andrew Tran that summarises and builds on Jenny's and Joris Muller's solutions.
 - [Ten Simple Rules for Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285) PLoS Comput Biol 9, e1003285 (2013).
 
