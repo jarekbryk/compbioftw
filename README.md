@@ -80,8 +80,6 @@ Also important:
 
 - David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R.
 
-- Jenny Bryan's [Happy Git and GitHub for the useR](http://happygitwithr.com) for using version control in general, and in R/R Studio in particular.
-
 - Mine Cetinkaya-Rundel teaches stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the last useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course that she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science).
 
 ### R tutorials I like
