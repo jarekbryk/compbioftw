@@ -110,7 +110,7 @@ Two classics:
 - [File organisation best practices](https://andrewbtran.github.io/NICAR/2018/workflow/docs/01-workflow_intro.html) by Andrew Tran that summarises and builds on Jenny's and Joris Muller's solutions.
 - Sandve, G. K., Nekrutenko, A., Taylor, J. & Hovig, E. [Ten Simple Rules for Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285) PLoS Comput Biol 9, e1003285 (2013).
 
-Shell-fu ####
+Shell-fu
 ------------------------
 
 ### Recommended general tutorials and tools on command line
