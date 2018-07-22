@@ -78,7 +78,7 @@ Also important:
 
 - Brown, N. and Wilson, G. [Ten quick tips for teaching programming](http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1006023&type=printable), PLoS Comput Biol 14(4): e1006023 (2018).
 
-- David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R.
+- David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R. The complementary `Tidyverse` vs `base` R philosophies are actually a result of evolution of R and its users, what Roger Peng expertly summarised in his talk [Teaching R to New Users - From tapply to the Tidyverse](https://simplystatistics.org/2018/07/12/use-r-keynote-2018/).
 
 - Mine Cetinkaya-Rundel teaches stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the last useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course that she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science).
 
