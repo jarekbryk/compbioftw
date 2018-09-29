@@ -43,7 +43,7 @@ If you have to use Excel for dates, split your date into three numerical columns
 This is essential. A good text editor has to support regular expressions and understand different line ending conventions. All the software below is free to use.
 
 - [Notepad++](https://notepad-plus-plus.org) on Windows
-- [BBEdit](http://www.barebones.com/products/bbedit/) on Macs (free version is powerful enough and entirely sufficient for a beginner)
+- [BBEdit](http://www.barebones.com/products/bbedit/) on Macs (free version is powerful enough and entirely sufficient for a start)
 - [Gedit](https://wiki.gnome.org/Apps/Gedit) on Linux (available by default on Ubuntu)
 - [Atom](https://atom.io) on everything (it runs as a Chrome-based browser)
 
@@ -89,6 +89,10 @@ Also important:
 - David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
 
 - Julia Silge's amazing [text mining walkthrough](https://juliasilge.com/blog/gender-pronouns/). She also has a book: [Text Mining with R](http://tidytextmining.com) (free online version), [paid hardcopy](http://amzn.eu/iyxDk34).
+
+- Mara Averic's collection of [purrr tutorials](https://maraaverick.rbind.io/2017/09/-purrr-ty-posts/).
+
+- Susan Baert's crystal clear, in-depth [four-part tutorial on dplyr](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/).
 
 - Software and Data carpentry R lessons are a bit inconsistent in their depth and scope, but I think the [Data Carpentry R Ecology Lesson](http://www.datacarpentry.org/R-ecology-lesson/) is the best one to start with.
 
