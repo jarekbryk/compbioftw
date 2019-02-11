@@ -96,7 +96,9 @@ Also important:
 
 - Mara Averic's collection of [purrr tutorials](https://maraaverick.rbind.io/2017/09/-purrr-ty-posts/).
 
-- Susan Baert's crystal clear, in-depth [four-part tutorial on dplyr](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/).
+- Susan Baert's crystal clear, in-depth [four-part tutorial on dplyr](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/) and her [10 dplyr tips](https://twitter.com/i/moments/1044926554239881217).
+
+- A list of online resources for learning R from Martin Skarzynski [Free online #Rstats resources](https://twitter.com/i/moments/1085158342597795842)
 
 - Software and Data carpentry R lessons are a bit inconsistent in their depth and scope, but I think the [Data Carpentry R Ecology Lesson](http://www.datacarpentry.org/R-ecology-lesson/) is the best one to start with.
 
@@ -121,8 +123,8 @@ Shell-fu
 
 ### Recommended general tutorials and tools on command line
 
-- <http://ryanstutorials.net/linuxtutorial/navigation.php>
-- <http://korflab.ucdavis.edu/Unix_and_Perl/>
+- [http://ryanstutorials.net/linuxtutorial/navigation.php](http://ryanstutorials.net/linuxtutorial/navigation.php)
+- [http://korflab.ucdavis.edu/Unix_and_Perl/](http://korflab.ucdavis.edu/Unix_and_Perl/)
 - [Software Carpentry Unix Shell lesson](http://swcarpentry.github.io/shell-novice/)
 - [explainshell.com](http://explainshell.com) will try to give you explanation for every element of a command line expression that you type (try it, it's really cool)
 
@@ -241,8 +243,8 @@ Regular expressions and grep
 
 ...but rememeber that `grep` in Notepadd++, Ruby, JavaScript or Mac terminal can have slightly different implementations (i.e. not all functions will work or not all functions will work the same way). When stuff doesn't work, try `egrep` (*extended grep*) and always RTFM.
 
-- <https://regex101.com>
-- <https://regexpr.com>
+- [https://regex101.com](https://regex101.com)
+- [https://regexpr.com](https://regexpr.com)
 
 A cool regular expression recognition web app - you put in your input and it tries to automatically find a regexp pattern to match it. When it works, it's like magic.
 
