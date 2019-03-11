@@ -14,6 +14,8 @@ If you need a good reference or just to persuade your colleague or supervisor th
 - Lindsay Barone, Jason Williams, David Micklos [Unmet Needs for Analyzing Biological Big Data: A Survey of 704 NSF Principal Investigators](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005755) (2017) PLoS Comput Biol 13(10): e1005755
 - Melissa A. Wilson Sayres et al. [Bioinformatics Core Competencies for Undergraduate Life Sciences Education](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196878) PLoS ONE 13, e0196878–20 (2018).
 
+- For a very contrarian view, be sure to read this blog post from Vicki Boykis [Data Science is different](https://veekaybee.github.io/2019/02/13/data-science-is-different/) and plan accordingly.
+
 Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
 
 ### Four books on computational biology I highly recommend
@@ -22,6 +24,11 @@ Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2
 - [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with emphasis on life science data analysis, including next-generation sequencing file handling.
 - [R for Data Science](http://amzn.eu/3UPfxlL) by Garett Golemund and Hadley Wickham. Solid introduction to `tidyverse` ways of handling data and analysis by the creators and evangelists :-)
 - [R Graphics Cookbook](http://amzn.eu/bi8RnNQ) by Winston Chang. `ggplot2` explained using clear examples akin to recipes ("if you want to plot this, do this and that").
+
+A more thorough list is available at [bookdown.org](https://bookdown.org), in particular these two books on data visualisation (both use ggplot extensively):
+
+- [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/) by Claus O. Wilke
+- [Data Visualization: A practical introduction](https://socviz.co) by Kieran Healy
 
 GitHub files from Vince’s book (there are some useful comments about setting up the Terminal etc.): [Vince Buffalo’s GitHub account](https://github.com/vsbuffalo) and his [book-related files on GitHub](https://github.com/vsbuffalo/bds-files).
 
@@ -73,6 +80,7 @@ Also important:
 - [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
 - [ASCIinema](https://asciinema.org) Recording you shell sessions is useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
 - [Choose an open source license](https://choosealicense.com): great source to figure out in plain English what license to use for your open source project.
+- Gina Reynolds' [ggplot flipbook concept](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1), where each element and layer of the ggplot plot is revealed step-after-step. And here is Gina's excellent [introduction to tidyverse](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) using the same concept.
 
 ### Some teaching ideology
 
@@ -84,9 +92,11 @@ Also important:
 
 - Mine Cetinkaya-Rundel teaches stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the last useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course that she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science).
 
+- [A list of R courses : university, online, workshops, etc.](https://github.com/rstudio-education/rstats-ed). All of the university-level courses listed so far are based in North America.
+
 ### R tutorials/codethroughs I like
 
-- If you want just one thing to explain someone why R is super awesome, show them Paul Campbell's presentation [A whirlwind tour of working with data in R](https://paulc91.github.io/intro_to_r/#1). You're welcome.
+- If you want just one thing to explain someone why R is super awesome, show them Paul Campbell's presentation [A whirlwind tour of working with data in R](https://paulc91.github.io/intro_to_r/#1) and Gina Reynolds' [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1). You're welcome.
 
 - Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course [Data wrangling, exploration, and analysis with R](http://stat545.com) and her [tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
 
