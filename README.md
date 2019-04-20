@@ -16,6 +16,8 @@ If you need a good reference or just to persuade your colleague or supervisor th
 
 - For a very contrarian view, be sure to read this blog post from Vicki Boykis [Data Science is different](https://veekaybee.github.io/2019/02/13/data-science-is-different/) and plan accordingly.
 
+- While in certain fields SPSS is still holding up (see [The Popularity of Data Science Software](http://r4stats.com/articles/popularity/) and [Popularity of statistical softwares in epidemiology](https://www.denishaine.ca/blog/popepi-rmd/)), R is poised to take over in number of citations by 2020 [SPSS is dying. It’s time to change.](http://lindeloev.net/spss-is-dying/).
+
 Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
 
 ### Four books on computational biology I highly recommend
@@ -96,11 +98,11 @@ Also important:
 
 ### R tutorials/codethroughs I like
 
-- If you want just one thing to explain someone why R is super awesome, show them Paul Campbell's presentation [A whirlwind tour of working with data in R](https://paulc91.github.io/intro_to_r/#1) and Gina Reynolds' [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1). You're welcome.
+- If you want just one or maximum two things to explain to someone why R is super awesome, show them Paul Campbell's presentation [A whirlwind tour of working with data in R](https://paulc91.github.io/intro_to_r/#1) and Gina Reynolds' [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1). You're welcome.
 
 - Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course [Data wrangling, exploration, and analysis with R](http://stat545.com) and her [tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
 
-- David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/).
+- David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/). I also very much like his [Tidy Tuesday code-through YouTube channell](https://www.youtube.com/watch?v=qirKGdQvy9U) and [the accompanying GitHub repository](https://github.com/rfordatascience/tidytuesday).
 
 - Julia Silge's amazing [text mining walkthrough](https://juliasilge.com/blog/gender-pronouns/). She also has a book: [Text Mining with R](http://tidytextmining.com) (free online version), [paid hardcopy](http://amzn.eu/iyxDk34).
 
