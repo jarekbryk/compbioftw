@@ -94,6 +94,8 @@ Also important:
 
 - Mine Cetinkaya-Rundel teaches stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the last useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course that she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science).
 
+- [How to Help Someone Use a Computer](https://www.librarian.net/stax/4965/how-to-help-someone-use-a-computer-by-phil-agre/), a very insightful list by Phil Agre (from 1996!)
+
 - [A list of R courses : university, online, workshops, etc.](https://github.com/rstudio-education/rstats-ed). All of the university-level courses listed so far are based in North America.
 
 ### R tutorials/codethroughs I like
