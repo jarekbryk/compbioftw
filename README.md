@@ -141,6 +141,8 @@ Shell-fu
 - [http://korflab.ucdavis.edu/Unix_and_Perl/](http://korflab.ucdavis.edu/Unix_and_Perl/)
 - [Software Carpentry Unix Shell lesson](http://swcarpentry.github.io/shell-novice/)
 - [explainshell.com](http://explainshell.com) will try to give you explanation for every element of a command line expression that you type (try it, it's really cool)
+- [The Best Keyboard Shortcuts for Bash](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
+
 
 ### How to install Bash shell on Windows 10
 
