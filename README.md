@@ -114,6 +114,8 @@ Also important:
 
 - A list of online resources for learning R from Martin Skarzynski [Free online #Rstats resources](https://twitter.com/i/moments/1085158342597795842)
 
+- [Practical Data Science: an introduction to the PeerJ collection](https://teachdatascience.com/peerj/) "contains a series of short papers focused on the practical side of data science workflows and statistical analysis"
+
 - Software and Data carpentry R lessons are a bit inconsistent in their depth and scope, but I think the [Data Carpentry R Ecology Lesson](http://www.datacarpentry.org/R-ecology-lesson/) is the best one to start with.
 
 Two classics:
