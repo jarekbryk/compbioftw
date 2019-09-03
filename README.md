@@ -269,7 +269,7 @@ A cool regular expression recognition web app - you put in your input and it tri
 
 - [rexpy: Automatic Discovery of Regular  Expressions](http://rexpy.herokuapp.com)
 
-There is now also a way of testing and visualising regular expressions inside R studio: [Regexplain](https://www.garrickadenbuie.com/project/regexplain/) by Garrick Aden-Buie.
+There is now also a way of testing and visualising regular expressions inside R studio: [Regexplain](https://www.garrickadenbuie.com/project/regexplain/) by Garrick Aden-Buie. And if you want a very nerdy regular expressions' testing site, try [regexcrossword.com](https://regexcrossword.com/howtoplay) (this site tests _you_).
 
 ### Wildcards for regular expression pattern matching
 
