@@ -24,13 +24,14 @@ Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2
 
 - [Practical Computing for Biologists](http://amzn.eu/bjL85Es) by Steven H.D. Haddock and Casey W. Dunn. It covers command line, Python, installing software and manipulation of graphics.
 - [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with emphasis on life science data analysis, including next-generation sequencing file handling.
-- [R for Data Science](http://amzn.eu/3UPfxlL) by Garett Golemund and Hadley Wickham. Solid introduction to `tidyverse` ways of handling data and analysis by the creators and evangelists :-)
-- [R Graphics Cookbook](http://amzn.eu/bi8RnNQ) by Winston Chang. `ggplot2` explained using clear examples akin to recipes ("if you want to plot this, do this and that").
+- [R for Data Science](https://r4ds.had.co.nz) by Garett Golemund and Hadley Wickham. Solid introduction to `tidyverse` ways of handling data and analysis by the creators and evangelists :-)
+- [R Graphics Cookbook](https://r-graphics.org) by Winston Chang. `ggplot2` explained using clear examples akin to recipes ("if you want to plot this, do this and that").
 
 A more thorough list is available at [bookdown.org](https://bookdown.org), in particular these two books on data visualisation (both use ggplot extensively):
 
 - [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/) by Claus O. Wilke
 - [Data Visualization: A practical introduction](https://socviz.co) by Kieran Healy
+- Also check [The R Graph Gallery](http://r-graph-gallery.com/ggplot2-package.html)
 
 GitHub files from Vince’s book (there are some useful comments about setting up the Terminal etc.): [Vince Buffalo’s GitHub account](https://github.com/vsbuffalo) and his [book-related files on GitHub](https://github.com/vsbuffalo/bds-files).
 
