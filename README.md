@@ -150,10 +150,11 @@ Shell-fu
 
 - [Bash shell on Windows 10! Pigs fly!](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 
-### Two very useful and inexpensive books on command line
+### Three very useful and inexpensive books on command line
 
 - [Take Control: Command Line by Joe Kissell](https://www.takecontrolbooks.com/command-line) (aimed at Mac users, but good for everyone - as usual ;-)
 - [The UNIX workbench by Sean Kross](http://seankross.com/the-unix-workbench/introduction.html) (donationware); now with [a Coursera course](https://www.coursera.org/learn/unix)!
+- [Data Science at the Command Line by Jeroen Janssens](https://www.datascienceatthecommandline.com)
 
 ### Shell prompt
 
