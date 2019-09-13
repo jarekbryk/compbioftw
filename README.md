@@ -33,8 +33,6 @@ A more thorough list is available at [bookdown.org](https://bookdown.org), in pa
 - [Data Visualization: A practical introduction](https://socviz.co) by Kieran Healy
 - Also check [The R Graph Gallery](http://r-graph-gallery.com/ggplot2-package.html)
 
-GitHub files from Vince’s book (there are some useful comments about setting up the Terminal etc.): [Vince Buffalo’s GitHub account](https://github.com/vsbuffalo) and his [book-related files on GitHub](https://github.com/vsbuffalo/bds-files).
-
 ### A good book to learn Python
 
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com) by Al Sweigart. The link leads to a free online version, but there are also [a hard copy](http://amzn.eu/duMXVW8) and [an ebook version](https://www.nostarch.com/automatestuff) available.
@@ -44,6 +42,7 @@ GitHub files from Vince’s book (there are some useful comments about setting u
 In particular, do not export gene IDs and dates to Excel and then import it back to R or other programming tools. You have been warned.
 
 - Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004). Also check this blog post (with comments), from 2012 (_sic_): [Gene name errors and Excel: lessons not learned](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/).
+- Ziemann, M. et al. [Gene name errors are widespread in the scientific literature](https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-016-1044-7) Genome Biology (2016) 17:177
 - Mallona, I. & Peinado, M. A. [Truke, a web tool to check for and handle excel misidentified gene symbols.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3631-8) 1–3 (2017). doi:10.1186/s12864-017-3631-8
 
 If you have to use Excel for dates, split your date into three numerical columns: year, month and day and use package [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html) to handle the dates after importing to R. Also, here is [a good website with tricks for power users](https://chandoo.org/wp/35-tips-data-analysis-in-excel/) and here is [a website which explains R data structures for people coming from Excel](http://rex-analytics.com/r-for-excel-users/).
