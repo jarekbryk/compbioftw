@@ -155,6 +155,11 @@ Two classics:
 Shell-fu
 ------------------------
 
+### Some history of Unix
+
+Apart from Wikipedia, this is a very nice overview of how the pipe and the Unix philosophy came about:
+- [Pipe: How the System Call That Ties Unix Together Came About](https://thenewstack.io/pipe-how-the-system-call-that-ties-unix-together-came-about/) by David Cassell at The New Stack.
+
 ### Recommended general tutorials and tools on command line
 
 - [http://ryanstutorials.net/linuxtutorial/navigation.php](http://ryanstutorials.net/linuxtutorial/navigation.php)
