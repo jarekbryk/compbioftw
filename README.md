@@ -16,33 +16,35 @@ If you need a good reference or just to persuade your colleague or supervisor th
 
 - For a very contrarian view, be sure to read this blog post from Vicki Boykis [Data Science is different](https://veekaybee.github.io/2019/02/13/data-science-is-different/) and plan accordingly.
 
-- While in certain fields SPSS is still holding up (see [The Popularity of Data Science Software](http://r4stats.com/articles/popularity/) and [Popularity of statistical softwares in epidemiology](https://www.denishaine.ca/blog/popepi-rmd/)), R is poised to take over in number of citations by 2020 [SPSS is dying. It’s time to change.](http://lindeloev.net/spss-is-dying/).
+- While in certain fields SPSS is still holding up (see [The Popularity of Data Science Software](http://r4stats.com/articles/popularity/) and [Popularity of statistical softwares in epidemiology](https://www.denishaine.ca/blog/popepi-rmd/)), R is poised to take over in number of citations by 2020 [SPSS is dying. It’s time to change.](http://lindeloev.net/spss-is-dying/). See also [The Top Programming Languages 2019](https://spectrum.ieee.org/computing/software/the-top-programming-languages-2019) at IEEE Spectrum website.
 
 Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/).
 
-### Four books on computational biology I highly recommend
+### Highly recommended books on computational biology and data science
 
 - [Practical Computing for Biologists](http://amzn.eu/bjL85Es) by Steven H.D. Haddock and Casey W. Dunn. It covers command line, Python, installing software and manipulation of graphics.
 - [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with emphasis on life science data analysis, including next-generation sequencing file handling.
 - [R for Data Science](https://r4ds.had.co.nz) by Garett Golemund and Hadley Wickham. Solid introduction to `tidyverse` ways of handling data and analysis by the creators and evangelists :-)
+
+And in paritcular these about the visualisations:
+
 - [R Graphics Cookbook](https://r-graphics.org) by Winston Chang. `ggplot2` explained using clear examples akin to recipes ("if you want to plot this, do this and that").
-
-A more thorough list is available at [bookdown.org](https://bookdown.org), in particular these two books on data visualisation (both use ggplot extensively):
-
 - [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/) by Claus O. Wilke
 - [Data Visualization: A practical introduction](https://socviz.co) by Kieran Healy
 - Also check [The R Graph Gallery](http://r-graph-gallery.com/ggplot2-package.html)
+
+A more thorough list is available at [bookdown.org](https://bookdown.org).
 
 ### A good book to learn Python
 
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com) by Al Sweigart. The link leads to a free online version, but there are also [a hard copy](http://amzn.eu/duMXVW8) and [an ebook version](https://www.nostarch.com/automatestuff) available.
 
-### Do not use Excel for handling dates and gene identifiers
+### Do not use Excel for handling dates and gene identifiers!
 
 In particular, do not export gene IDs and dates to Excel and then import it back to R or other programming tools. You have been warned.
 
-- Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004). Also check this blog post (with comments), from 2012 (_sic_): [Gene name errors and Excel: lessons not learned](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/).
-- Ziemann, M. et al. [Gene name errors are widespread in the scientific literature](https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-016-1044-7) Genome Biology (2016) 17:177
+- Zeeberg, B. R. et al. [Mistaken identifiers: gene name errors can be introduced inadvertently when using Excel in bioinformatics.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-5-80) BMC Bioinformatics 5, 80 (2004). Also check this blog post (with comments), from 2012: [Gene name errors and Excel: lessons not learned](https://nsaunders.wordpress.com/2012/10/22/gene-name-errors-and-excel-lessons-not-learned/).
+- Ziemann, M. et al. [Gene name errors are widespread in the scientific literature](https://genomebiology.biomedcentral.com/track/pdf/10.1186/s13059-016-1044-7) Genome Biology (2016) (_sic_) 17:177
 - Mallona, I. & Peinado, M. A. [Truke, a web tool to check for and handle excel misidentified gene symbols.](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-017-3631-8) 1–3 (2017). doi:10.1186/s12864-017-3631-8
 
 If you have to use Excel for dates, split your date into three numerical columns: year, month and day and use package [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html) to handle the dates after importing to R. Also, here is [a good website with tricks for power users](https://chandoo.org/wp/35-tips-data-analysis-in-excel/) and here is [a website which explains R data structures for people coming from Excel](http://rex-analytics.com/r-for-excel-users/).
@@ -74,15 +76,31 @@ Also important:
 
 ### Tools useful in teaching or just for mucking about
 
-- [learnr](https://rstudio.github.io/learnr/) Interactive tutorials with R Notebook and Shiny - the next big thing for teaching R in my opinion.
+- [rstudio.cloud](rstudio.cloud) - what is says on the tin. Free to use (for now), and it seems R Studio people are thinking this is going to be big for teaching R: [https://resources.rstudio.com/webinars/rstudio-cloud-in-the-classroom](RStudio Cloud in the Classroom) by Mine Cetinkaya-Rundel.
+- [learnr](https://rstudio.github.io/learnr/) Interactive tutorials with R Notebook and Shiny.
+
+#### Collaborative notebooks and recorders
+
 - [etherpad](http://etherpad.org/#about) for collaborative real time editing (a la Google Docs). This is what Software and Data Carpentry use, but you need to host it (there are free public hosts available).
 - [HackMD](https://hackmd.io/features) a possibly better alternative to etherpad. Does not require hosting and uses Markdown (it formats the text automatically).
-- [UpDog](https://updog.co) A websites-hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page (30 sec. delay) with live coding session for your students to follow. Free! (Markdown support is paid extra). See also this tweet from [Cloudstitch](https://cloudstitch.com): [Power a Jekyll Blog from Google Drive with just a 2 minute setup](https://twitter.com/cloudstitch/status/883022617690554368).
-- [R Blogdown](https://bookdown.org/yihui/blogdown/) is a fantastic way to set up your website from within R ([this Twitter thread from Dan Quintana is rather useful as well](https://twitter.com/dsquintana/status/993410504570888192)). If you want to write a book or a paper within R, try [R Bookdown](https://bookdown.org/yihui/bookdown/). Both Bookdown and Blogdown are by [Yihui Xie](https://yihui.name/en/). [Hugo](https://gohugo.io) + [Netlify](https://www.netlify.com) seem to be the new [Jekyll](https://jekyllrb.com) + [GitHub Pages](https://pages.github.com).
 - [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
 - [ASCIinema](https://asciinema.org) Recording you shell sessions is useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
+
+#### Website builders etc.
+
+- [UpDog](https://updog.co) A websites-hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page (30 sec. delay) with live coding session for your students to follow. Free! (Markdown support is paid extra). See also this tweet from [Cloudstitch](https://cloudstitch.com): [Power a Jekyll Blog from Google Drive with just a 2 minute setup](https://twitter.com/cloudstitch/status/883022617690554368).
+- [R Blogdown](https://bookdown.org/yihui/blogdown/) is a fantastic way to set up your website from within R ([this Twitter thread from Dan Quintana is rather useful as well](https://twitter.com/dsquintana/status/993410504570888192)). If you want to write a book or a paper within R, try [R Bookdown](https://bookdown.org/yihui/bookdown/); if you want to prepare your presentation from within R, with dynamic R code (a.k.a Presentation Ninja), use [xaringan](https://github.com/yihui/xaringan). All three are by amazing [Yihui Xie](https://yihui.name/en/).
+- [Hugo](https://gohugo.io) + [Netlify](https://www.netlify.com) seem to be the new [Jekyll](https://jekyllrb.com) + [GitHub Pages](https://pages.github.com).
+
+#### Regular expressions in R
+
+- [regexplain](https://github.com/gadenbuie/regexplain) by Garrick Aden-Buie is an R Studio addin that enables interactive construction of regular expressions with real-time preview of their workings.
+- [RVerbalExpressions](https://rverbalexpressions.netlify.com/index.html) by Tyler Littlefield is an R package that uses natural-language-like expressions to construct regular expression patterns.
+
+#### Other stuff
+
 - [Choose an open source license](https://choosealicense.com): great source to figure out in plain English what license to use for your open source project.
-- Gina Reynolds' [ggplot flipbook concept](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1), where each element and layer of the ggplot plot is revealed step-after-step. And here is Gina's excellent [introduction to tidyverse](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1) using the same concept.
+- Gina Reynolds' [ggplot flipbook concept](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1), where each element and layer of the ggplot plot is revealed step-by-step.
 
 ### Some teaching ideology
 
@@ -145,12 +163,11 @@ Shell-fu
 - [explainshell.com](http://explainshell.com) will try to give you explanation for every element of a command line expression that you type (try it, it's really cool)
 - [The Best Keyboard Shortcuts for Bash](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
 
-
 ### How to install Bash shell on Windows 10
 
 - [Bash shell on Windows 10! Pigs fly!](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 
-### Three very useful and inexpensive books on command line
+### Three very useful and inexpensive or free books on command line
 
 - [Take Control: Command Line by Joe Kissell](https://www.takecontrolbooks.com/command-line) (aimed at Mac users, but good for everyone - as usual ;-)
 - [The UNIX workbench by Sean Kross](http://seankross.com/the-unix-workbench/introduction.html) (donationware); now with [a Coursera course](https://www.coursera.org/learn/unix)!
