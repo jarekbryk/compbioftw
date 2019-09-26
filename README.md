@@ -25,6 +25,7 @@ Also, [bioinformatics != computational biology](https://rbaltman.wordpress.com/2
 - [Practical Computing for Biologists](http://amzn.eu/bjL85Es) by Steven H.D. Haddock and Casey W. Dunn. It covers command line, Python, installing software and manipulation of graphics.
 - [Bioinformatics Data Skills](http://amzn.eu/83378iQ) by Vince Buffalo. Shell, R, Git with emphasis on life science data analysis, including next-generation sequencing file handling.
 - [R for Data Science](https://r4ds.had.co.nz) by Garett Golemund and Hadley Wickham. Solid introduction to `tidyverse` ways of handling data and analysis by the creators and evangelists :-)
+- [STAT 545: Data wrangling, exploration, and analysis with R](https://stat545.com) by Jenny Bryan, the `tidyverse` expanded :-)
 
 And in paritcular these about the visualisations:
 
