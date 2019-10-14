@@ -121,7 +121,7 @@ Also important:
 
 - If you want just one or maximum two things to explain to someone why R is super awesome, show them Paul Campbell's presentation [A whirlwind tour of working with data in R](https://paulc91.github.io/intro_to_r/#1) and Gina Reynolds' [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1). You're welcome.
 
-- Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course [Data wrangling, exploration, and analysis with R](http://stat545.com) and her [tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
+- Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course mentioned above [Data wrangling, exploration, and analysis with R](http://stat545.com) (now as an online book!) and her [tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
 
 - David Robinson's step-by-step demonstrations of exploratory data analysis: [Modeling gene expression with broom: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics-broom/) and [Cleaning and visualizing genomic data: a case study in tidy analysis](http://varianceexplained.org/r/tidy-genomics/). I also very much like his [Tidy Tuesday code-through YouTube channell](https://www.youtube.com/watch?v=qirKGdQvy9U) and [the accompanying GitHub repository](https://github.com/rfordatascience/tidytuesday).
 
@@ -168,6 +168,7 @@ Apart from Wikipedia, this is a very nice overview of how the pipe and the Unix 
 - [Software Carpentry Unix Shell lesson](http://swcarpentry.github.io/shell-novice/)
 - [explainshell.com](http://explainshell.com) will try to give you explanation for every element of a command line expression that you type (try it, it's really cool)
 - [The Best Keyboard Shortcuts for Bash](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
+- [A great BASH scripting cheatsheet](https://devhints.io/bash) from [@rstacruz](https://ricostacruz.com) at [devhints.io](https://devhints.io)
 
 ### How to install Bash shell on Windows 10
 
