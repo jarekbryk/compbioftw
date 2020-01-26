@@ -71,9 +71,9 @@ Also important:
 
 - [Naming things](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf) Jenny Bryan's definitive slides on how to name things FTW
 - [Full R documentation online (including 13k+ packages)](https://www.rdocumentation.org)
-- [How to write a reproducible example](http://adv-r.had.co.nz/Reproducibility.html). If you need to ask for R help online, this is how you do it. Now in a form of R package: [reprex](http://reprex.tidyverse.org).
-- [Reserved words in R](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html). The list is short: `if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_`.
-- [Make a website with R Blogdown] and share your code with the world
+- [How to write a reproducible example](http://adv-r.had.co.nz/Reproducibility.html). If you need to ask for R help online, this is how you do it. Now in a form of R package: [reprex](http://reprex.tidyverse.org)
+- [Reserved words in R](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html). The list is short: `if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_`
+- [Make a website with R Blogdown](https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/) and share your code with the world, by Alison Hill
 
 ### Tools useful in teaching or just for mucking about
 
