@@ -170,6 +170,12 @@ Apart from Wikipedia, this is a very nice overview of how the pipe and the Unix 
 - [The Best Keyboard Shortcuts for Bash](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
 - [A great BASH scripting cheatsheet](https://devhints.io/bash) from [@rstacruz](https://ricostacruz.com) at [devhints.io](https://devhints.io)
 
+### Overview of some second-generation command-line tools
+
+`fd` and `fzf` look particularly cool.
+
+- [http://erick.matsen.org/2020/01/04/2nd-gen-interactive-shell.html](http://erick.matsen.org/2020/01/04/2nd-gen-interactive-shell.html)
+
 ### How to install Bash shell on Windows 10
 
 - [Bash shell on Windows 10! Pigs fly!](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
