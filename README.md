@@ -163,6 +163,7 @@ Apart from Wikipedia, this is a very nice overview of how the pipe and the Unix 
 
 ### Recommended general tutorials and tools on command line
 
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu), this is a top-notch one-stop-shop for learning shell stuff - if you can only try one thing about shell from this site, this is it
 - [http://ryanstutorials.net/linuxtutorial/navigation.php](http://ryanstutorials.net/linuxtutorial/navigation.php)
 - [http://korflab.ucdavis.edu/Unix_and_Perl/](http://korflab.ucdavis.edu/Unix_and_Perl/)
 - [Software Carpentry Unix Shell lesson](http://swcarpentry.github.io/shell-novice/)
