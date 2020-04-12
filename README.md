@@ -89,7 +89,7 @@ Also important:
 
 #### Website builders etc.
 
-- [UpDog](https://updog.co) A websites-hosting service (that supports your own domain names) run off your normal Dropbox or Google Drive accounts. The great thing about it is that you can put your R Notebook or text files there to have a refreshing page (30 sec. delay) with live coding session for your students to follow. Free! (Markdown support is paid extra). See also this tweet from [Cloudstitch](https://cloudstitch.com): [Power a Jekyll Blog from Google Drive with just a 2 minute setup](https://twitter.com/cloudstitch/status/883022617690554368).
+- [UpDog](https://updog.co) - by far my favourite and most-used tool, is no more...
 - [R Blogdown](https://bookdown.org/yihui/blogdown/) is a fantastic way to set up your website from within R ([this Twitter thread from Dan Quintana is rather useful as well](https://twitter.com/dsquintana/status/993410504570888192)). If you want to write a book or a paper within R, try [R Bookdown](https://bookdown.org/yihui/bookdown/); if you want to prepare your presentation from within R, with dynamic R code (a.k.a Presentation Ninja), use [xaringan](https://github.com/yihui/xaringan). All three are by amazing [Yihui Xie](https://yihui.name/en/).
 - [Hugo](https://gohugo.io) + [Netlify](https://www.netlify.com) seem to be the new [Jekyll](https://jekyllrb.com) + [GitHub Pages](https://pages.github.com).
 
@@ -160,6 +160,10 @@ Shell-fu
 
 Apart from Wikipedia, this is a very nice overview of how the pipe and the Unix philosophy came about:
 - [Pipe: How the System Call That Ties Unix Together Came About](https://thenewstack.io/pipe-how-the-system-call-that-ties-unix-together-came-about/) by David Cassell at The New Stack.
+
+### A nifty tool
+
+This little Mac utility by Jay Tuley will install an icon in Finder that opens the current folder in Terminal: [CDto](https://github.com/jbtule/cdto)
 
 ### Recommended general tutorials and tools on command line
 
