@@ -111,6 +111,8 @@ Also important:
 
 - David Robinson's [Teach the tidyverse to beginners](http://varianceexplained.org/r/teach-tidyverse/). Very sensible, but do check the comments that point out the advantages of `base` R. The complementary `Tidyverse` vs `base` R philosophies are actually a result of evolution of R and its users, what Roger Peng expertly summarised in his talk [Teaching R to New Users - From tapply to the Tidyverse](https://simplystatistics.org/2018/07/12/use-r-keynote-2018/).
 
+- For a contrarian view of the Tidyverse, read [An alternate view of the Tidyverse "dialect" of the R language, and its promotion by RStudio](https://github.com/matloff/TidyverseSkeptic) by Norm Matloff and [Why R is Hard to Learn](http://r4stats.com/articles/why-r-is-hard-to-learn/) by Robert A. Muenchen.
+
 - Mine Cetinkaya-Rundel teaches stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the last useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course that she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science).
 
 - [How to Help Someone Use a Computer](https://www.librarian.net/stax/4965/how-to-help-someone-use-a-computer-by-phil-agre/), a very insightful list by Phil Agre (from 1996!)
@@ -136,6 +138,8 @@ Also important:
 - [Practical Data Science: an introduction to the PeerJ collection](https://teachdatascience.com/peerj/) "contains a series of short papers focused on the practical side of data science workflows and statistical analysis"
 
 - Software and Data carpentry R lessons are a bit inconsistent in their depth and scope, but I think the [Data Carpentry R Ecology Lesson](http://www.datacarpentry.org/R-ecology-lesson/) is the best one to start with.
+
+- Also: [dplyr vs data.table](https://atrebas.github.io/post/2019-03-03-datatable-dplyr/).
 
 Two classics:
 
