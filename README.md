@@ -91,6 +91,7 @@ Also important:
 
 - [UpDog](https://updog.co) - by far my favourite and most-used tool, is no more...
 - [R Blogdown](https://bookdown.org/yihui/blogdown/) is a fantastic way to set up your website from within R ([this Twitter thread from Dan Quintana is rather useful as well](https://twitter.com/dsquintana/status/993410504570888192)). If you want to write a book or a paper within R, try [R Bookdown](https://bookdown.org/yihui/bookdown/); if you want to prepare your presentation from within R, with dynamic R code (a.k.a Presentation Ninja), use [xaringan](https://github.com/yihui/xaringan). All three are by amazing [Yihui Xie](https://yihui.name/en/).
+- Do not miss Alison Hill's [excellent tutorial on setting up your Blogdown website](https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/)
 - [Hugo](https://gohugo.io) + [Netlify](https://www.netlify.com) seem to be the new [Jekyll](https://jekyllrb.com) + [GitHub Pages](https://pages.github.com).
 
 #### Regular expressions in R
@@ -120,6 +121,14 @@ Also important:
 - [A list of R courses : university, online, workshops, etc.](https://github.com/rstudio-education/rstats-ed). All of the university-level courses listed so far are based in North America.
 
 ### R tutorials/codethroughs I like
+
+There has been a recent abundance of tutorials on various aspects of R, so the below list has been expanded.
+
+- [Introduction to R for Statistics and Data Science] by Dr Kelly Bodwin: "On this site, you will find materials for a full, 8-week, college-level course focused on learning to use R for Data Science and Statistical Analysis".
+
+- [Learning Statistics with R](https://learningstatisticswithr.com) and [Data science with R](https://robust-tools.djnavarro.net), both by Danielle Navarro.
+
+- [Teaching Statistics and Data Science Online](https://mine-cetinkaya-rundel.github.io/teach-r-online/) by Mine Çetinkaya-Rundel.
 
 - If you want just one or maximum two things to explain to someone why R is super awesome, show them Paul Campbell's presentation [A whirlwind tour of working with data in R](https://paulc91.github.io/intro_to_r/#1) and Gina Reynolds' [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1). You're welcome.
 
