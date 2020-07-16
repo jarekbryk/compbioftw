@@ -11,10 +11,13 @@ If you need a good reference or just to persuade your colleague or supervisor th
 - Wilson, G. et al. [Best Practices for Scientific Computing.](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745) PLoS Biol 12, e1001745 (2014).
 - Wilson, G. et al. [Good Enough Practices in Scientific Computing.](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) PLoS Comput Biol 13, e1005510 (2017).
 - Tippmann, S. [Programming tools: Adventures with R.](http://www.nature.com/news/programming-tools-adventures-with-r-1.16609) Nature 517, 109–110 (2015).
-- Lindsay Barone, Jason Williams, David Micklos [Unmet Needs for Analyzing Biological Big Data: A Survey of 704 NSF Principal Investigators](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005755) (2017) PLoS Comput Biol 13(10): e1005755
+- Lindsay Barone, Jason Williams, David Micklos [Unmet Needs for Analyzing Biological Big Data: A Survey of 704 NSF Principal Investigators](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005755) (2017) PLoS Comput Biol 13(10): e1005755.
 - Melissa A. Wilson Sayres et al. [Bioinformatics Core Competencies for Undergraduate Life Sciences Education](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196878) PLoS ONE 13, e0196878–20 (2018).
-
 - For a very contrarian view, be sure to read this blog post from Vicki Boykis [Data Science is different](https://veekaybee.github.io/2019/02/13/data-science-is-different/) and plan accordingly.
+
+### R For The Win
+
+- If you want just one or maximum two things to explain to someone why R is super awesome, show them Paul Campbell's presentation [A whirlwind tour of working with data in R](https://paulc91.github.io/intro_to_r/#1) and Gina Reynolds' [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1). You're welcome.
 
 - While in certain fields SPSS is still holding up (see [The Popularity of Data Science Software](http://r4stats.com/articles/popularity/) and [Popularity of statistical softwares in epidemiology](https://www.denishaine.ca/blog/popepi-rmd/)), R is poised to take over in number of citations by 2020 [SPSS is dying. It’s time to change.](http://lindeloev.net/spss-is-dying/). See also [The Top Programming Languages 2019](https://spectrum.ieee.org/computing/software/the-top-programming-languages-2019) at IEEE Spectrum website.
 
@@ -57,6 +60,7 @@ This is essential. A good text editor has to support regular expressions and und
 - [Notepad++](https://notepad-plus-plus.org) on Windows
 - [BBEdit](http://www.barebones.com/products/bbedit/) on Macs (free version is powerful enough and entirely sufficient for a start)
 - [Gedit](https://wiki.gnome.org/Apps/Gedit) on Linux (available by default on Ubuntu)
+- [Visual Studio Code](https://code.visualstudio.com) on everything, made by Microsoft and actually very good ;-)
 - [Atom](https://atom.io) on everything (it runs as a Chrome-based browser)
 
 ### Do it in style
@@ -85,11 +89,10 @@ Also important:
 - [etherpad](http://etherpad.org/#about) for collaborative real time editing (a la Google Docs). This is what Software and Data Carpentry use, but you need to host it (there are free public hosts available).
 - [HackMD](https://hackmd.io/features) a possibly better alternative to etherpad. Does not require hosting and uses Markdown (it formats the text automatically).
 - [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
-- [ASCIinema](https://asciinema.org) Recording you shell sessions is useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
+- [ASCIinema](https://asciinema.org) Recording your shell sessions is useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though, is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
 
 #### Website builders etc.
 
-- [UpDog](https://updog.co) - by far my favourite and most-used tool, is no more...
 - [R Blogdown](https://bookdown.org/yihui/blogdown/) is a fantastic way to set up your website from within R ([this Twitter thread from Dan Quintana is rather useful as well](https://twitter.com/dsquintana/status/993410504570888192)). If you want to write a book or a paper within R, try [R Bookdown](https://bookdown.org/yihui/bookdown/); if you want to prepare your presentation from within R, with dynamic R code (a.k.a Presentation Ninja), use [xaringan](https://github.com/yihui/xaringan). All three are by amazing [Yihui Xie](https://yihui.name/en/).
 - Do not miss Alison Hill's [excellent tutorial on setting up your Blogdown website](https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/)
 - [Hugo](https://gohugo.io) + [Netlify](https://www.netlify.com) seem to be the new [Jekyll](https://jekyllrb.com) + [GitHub Pages](https://pages.github.com).
@@ -104,7 +107,7 @@ Also important:
 - [Choose an open source license](https://choosealicense.com): great source to figure out in plain English what license to use for your open source project.
 - Gina Reynolds' [ggplot flipbook concept](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1), where each element and layer of the ggplot plot is revealed step-by-step.
 
-### Some teaching ideology
+### Some teaching ideology, with emphasis on R
 
 - Software Carpentry's founder Greg Wilson's book on teaching programming: [How to Teach Programming (And Other Things)](http://third-bit.com/2017/05/31/how-to-teach-programming.html). Free versions available [on his site](http://third-bit.com/teaching/), as an [epub](http://third-bit.com/teaching.epub), [mobi](http://third-bit.com/teaching.mobi) or as [a low-cost hard copy](http://www.lulu.com/shop/greg-wilson/how-to-teach-programming-and-other-things/paperback/product-23200026.html).
 
@@ -114,23 +117,23 @@ Also important:
 
 - For a contrarian view of the Tidyverse, read [An alternate view of the Tidyverse "dialect" of the R language, and its promotion by RStudio](https://github.com/matloff/TidyverseSkeptic) by Norm Matloff and [Why R is Hard to Learn](http://r4stats.com/articles/why-r-is-hard-to-learn/) by Robert A. Muenchen.
 
-- Mine Cetinkaya-Rundel teaches stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the last useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course that she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science).
+- Mine Cetinkaya-Rundel used to teach stats with R and Git at Duke and is at the forefront of implementing these tools in high-throughput teaching context. Check out her paper [Infrastructure and tools for teaching computing throughout the statistical curriculum](https://peerj.com/preprints/3181v1/), her talk on the useR! conference [Teaching data science to new useRs](https://channel9.msdn.com/Events/useR-international-R-User-conferences/useR-International-R-User-2017-Conference/KEYNOTE-Teaching-data-science-to-new-useRs) and the course that she teaches itself [http://www2.stat.duke.edu/courses/Spring18/Sta199/](STA 199: Intro to Data Science).
 
-- [How to Help Someone Use a Computer](https://www.librarian.net/stax/4965/how-to-help-someone-use-a-computer-by-phil-agre/), a very insightful list by Phil Agre (from 1996!)
+- [How to Help Someone Use a Computer](https://www.librarian.net/stax/4965/how-to-help-someone-use-a-computer-by-phil-agre/), a very insightful list by Phil Agre (from 1996! - I guess nothing ever changes)
 
 - [A list of R courses : university, online, workshops, etc.](https://github.com/rstudio-education/rstats-ed). All of the university-level courses listed so far are based in North America.
 
 ### R tutorials/codethroughs I like
 
-There has been a recent abundance of tutorials on various aspects of R, so the below list has been expanded.
+There has been a recent proliferation of tutorials on various aspects of R, so the below list has been expanded.
 
-- [Introduction to R for Statistics and Data Science] by Dr Kelly Bodwin: "On this site, you will find materials for a full, 8-week, college-level course focused on learning to use R for Data Science and Statistical Analysis".
+- [Introduction to R for Statistics and Data Science](https://www.adventures-in-r.com) by Dr Kelly Bodwin: "On this site, you will find materials for a full, 8-week, college-level course focused on learning to use R for Data Science and Statistical Analysis".
 
 - [Learning Statistics with R](https://learningstatisticswithr.com) and [Data science with R](https://robust-tools.djnavarro.net), both by Danielle Navarro.
 
 - [Teaching Statistics and Data Science Online](https://mine-cetinkaya-rundel.github.io/teach-r-online/) by Mine Çetinkaya-Rundel.
 
-- If you want just one or maximum two things to explain to someone why R is super awesome, show them Paul Campbell's presentation [A whirlwind tour of working with data in R](https://paulc91.github.io/intro_to_r/#1) and Gina Reynolds' [The Tidyverse in Action](https://evamaerey.github.io/tidyverse_in_action/tidyverse_in_action.html#1). You're welcome.
+- [Data Visualization: Use R, ggplot2, and the principles of graphic design to create beautiful and truthful visualizations of data](https://datavizm20.classes.andrewheiss.com) by Andrew Heiss
 
 - Pretty much anything [Jenny Brian](https://www.stat.ubc.ca/~jenny/) does, but in particular her UBC course mentioned above [Data wrangling, exploration, and analysis with R](http://stat545.com) (now as an online book!) and her [tutorial on purrr](https://jennybc.github.io/purrr-tutorial/index.html).
 
