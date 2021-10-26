@@ -65,11 +65,7 @@ This is essential. A good text editor has to support regular expressions and und
 
 ### Do it in style
 
-Code style guides for R. Pick one and stick to it:
-
-- [Hadley Wickham's R code style guide](http://adv-r.had.co.nz/Style.html)
-- [Google R code style guide](https://google.github.io/styleguide/Rguide.xml)
-- [Jean Fan's R code style guide](http://jef.works/R-style-guide/)
+Code style guides for R. I recommend [tidyverse style guide](https://style.tidyverse.org/) but it's not the only one (see also [Google R code style guide](https://google.github.io/styleguide/Rguide.xml) and [Jean Fan's R code style guide](http://jef.works/R-style-guide/)). The important part is to pick one and stick to it. There is also a package to help you with adhering to the tidyverse style guide: [styler](https://styler.r-lib.org).
 
 Also important:
 
@@ -77,7 +73,6 @@ Also important:
 - [Full R documentation online (including 13k+ packages)](https://www.rdocumentation.org)
 - [How to write a reproducible example](http://adv-r.had.co.nz/Reproducibility.html). If you need to ask for R help online, this is how you do it. Now in a form of R package: [reprex](http://reprex.tidyverse.org)
 - [Reserved words in R](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html). The list is short: `if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_`
-- [Make a website with R Blogdown](https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/) and share your code with the world, by Alison Hill
 
 ### Tools useful in teaching or just for mucking about
 
@@ -91,11 +86,17 @@ Also important:
 - [Awwapp - web whiteboard](https://awwapp.com) You draw/type something on your screen and your students see it and can contribute in real time.
 - [ASCIinema](https://asciinema.org) Recording your shell sessions is useful for your students, and this system let's you select the text in the recording and copy/paste it! What would be super useful though, is a real-time shell recording system that would output the recording as-is (both commands and their output) to an accesible location like a website or even a file.
 
-#### Website builders etc.
+#### Make your website, blog, paper or a presentation with R
 
-- [R Blogdown](https://bookdown.org/yihui/blogdown/) is a fantastic way to set up your website from within R ([this Twitter thread from Dan Quintana is rather useful as well](https://twitter.com/dsquintana/status/993410504570888192)). If you want to write a book or a paper within R, try [R Bookdown](https://bookdown.org/yihui/bookdown/); if you want to prepare your presentation from within R, with dynamic R code (a.k.a Presentation Ninja), use [xaringan](https://github.com/yihui/xaringan). All three are by amazing [Yihui Xie](https://yihui.name/en/).
-- Do not miss Alison Hill's [excellent tutorial on setting up your Blogdown website](https://alison.rbind.io/post/2017-06-12-up-and-running-with-blogdown/)
-- [Hugo](https://gohugo.io) + [Netlify](https://www.netlify.com) seem to be the new [Jekyll](https://jekyllrb.com) + [GitHub Pages](https://pages.github.com).
+- [R Blogdown](https://bookdown.org/yihui/blogdown/) is a fantastic way to set up your website from within R ([this Twitter thread from Dan Quintana is rather useful as well](https://twitter.com/dsquintana/status/993410504570888192)). 
+
+- Do not miss Alison Hill's [excellent tutorial on setting up your Blogdown website](https://www.apreshill.com/blog/2020-12-new-year-new-blogdown/). She also developed [a nice Hugo template for personal websites](https://www.apreshill.com/project/hugo-apero/).
+
+- If you want to write a book or a paper within R, try [R Bookdown](https://bookdown.org/yihui/bookdown/) and [rticles](https://github.com/rstudio/rticles).
+
+- If you want to prepare your presentation within R, with dynamic R code, use [xaringan](https://github.com/yihui/xaringan). (BTW, blogdown, bookdown and xaringan are all made by the amazing [Yihui Xie](https://yihui.name/en/)). And definitely check Gina Reynolds' [ggplot flipbook concept](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1), where each element and layer of the ggplot plot is revealed step-by-step.
+
+- [Hugo](https://gohugo.io) + [Netlify](https://www.netlify.com) seem to be the new [Jekyll](https://jekyllrb.com) + [GitHub Pages](https://pages.github.com). But as of 2021, I use and recommend [Distill as the most straightforward way of putting your website or blog online](https://rstudio.github.io/distill/), as long as you don't mind sticking largely to the default aesthetics.
 
 #### Regular expressions in R
 
@@ -105,7 +106,6 @@ Also important:
 #### Other stuff
 
 - [Choose an open source license](https://choosealicense.com): great source to figure out in plain English what license to use for your open source project.
-- Gina Reynolds' [ggplot flipbook concept](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html#1), where each element and layer of the ggplot plot is revealed step-by-step.
 
 ### Some teaching ideology, with emphasis on R
 
@@ -131,7 +131,7 @@ There has been a recent proliferation of tutorials on various aspects of R, so t
 
 - [Learning Statistics with R](https://learningstatisticswithr.com) and [Data science with R](https://robust-tools.djnavarro.net), both by Danielle Navarro.
 
-- [Teaching Statistics and Data Science Online](https://mine-cetinkaya-rundel.github.io/teach-r-online/) by Mine Çetinkaya-Rundel.
+- [Teaching Statistics and Data Science Online](https://mine-cetinkaya-rundel.github.io/teach-r-online/) by Mine Çetinkaya-Rundel. There is now an open textbook: [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) by Mine Çetinkaya-Rundel and Johanna Hardin.
 
 - [Data Visualization: Use R, ggplot2, and the principles of graphic design to create beautiful and truthful visualizations of data](https://datavizm20.classes.andrewheiss.com) by Andrew Heiss
 
@@ -213,7 +213,7 @@ Take time to make your terminal window and the font big enough!
 
 - Default (at least on my machine): `\h:\W \u\$`
 - How to check what's your current prompt: `echo $PS1`
-- Hot to change your prompt: `PS1="yournewprompt"`. A nice trick is to use PS1="\n\W \u-$ " so that you have a new line before your prompt - it's visually separated from the output of a previous command.
+- How to change your prompt: `PS1="yournewprompt"`. A nice trick is to use PS1="\n\W \u-$ " so that you have a new line before your prompt - it's visually separated from the output of a previous command.
 
 Useful link with options to modify your prompt: [https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html](https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html)
 
@@ -392,7 +392,7 @@ Jenny Brian's book about Git for R users is great: [Happy Git and GitHub for the
 - `git init` to initialise repository (a tracked directory)
 - `git remote add origin https://github.com/jarekbryk/example_repository.git` to add remote repository link for local tracking
 - `git add [files]` to explicitly add [files] to tracking (files can also be explicitly ignored with `git ignore`)
-- `git commit` to “upload” the tracked version to a repository, always with a [comment] on what was done `git commit -m"[your comment here]"``
+- `git commit` to “upload” the tracked version to a repository, always with a [comment] on what was done `git commit -m"[your comment here]"`
 - `git status` to check, er, status
 - `git diff` to check differences between committed version and current
 version (I think it must be done before add?)
@@ -435,6 +435,7 @@ And a very good tutorial that let's you use Awk right away: [Why you should lear
 ### Enable NTFS read/write in macOS
 
 This will let you read anc write to a Windows partition from macOS:
+
 - [http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/](http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free)
 - [http://osxdaily.com/2013/10/02/enable-ntfs-write-support-mac-os-x/](http://www.makeuseof.com/tag/write-ntfs-drives-el-capitan-free/)
 
@@ -447,8 +448,6 @@ This will let you read from a Linux partition on macOS:
 
 - Install [FUSE for macOS](https://osxfuse.github.io)
 - Install [ext4fuse](https://github.com/gerard/ext4fuse)
-
-I am still working on it - I only managed to get read access when root...
 
 ### Setting up ftp proxy via command line
 
