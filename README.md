@@ -53,6 +53,8 @@ In particular, do not export gene IDs and dates to Excel and then import it back
 
 If you have to use Excel for dates, split your date into three numerical columns: year, month and day and use package [lubridate](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html) to handle the dates after importing to R. Also, here is [a good website with tricks for power users](https://chandoo.org/wp/35-tips-data-analysis-in-excel/) and here is [a website which explains R data structures for people coming from Excel](http://rex-analytics.com/r-for-excel-users/).
 
+However, Excel is often good enough for many things, and sometimes it is inevitable. Before you go for it, have a look at this paper: Karl W. Broman & Kara H. Woo (2018) [Data Organization in Spreadsheets](https://health.ucdavis.edu/cancer/research/sharedresources/biostatistics/pdf/DataOrganizationSpreadsheets.pdf), The American Statistician, 72:1, 2-10, DOI: 10.1080/00031305.2017.1375989
+
 ### Get a good text editor
 
 This is essential. A good text editor has to support regular expressions and understand different line ending conventions. All the software below is free to use.
@@ -70,6 +72,8 @@ Code style guides for R. I recommend [tidyverse style guide](https://style.tidyv
 Also important:
 
 - [Naming things](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf) Jenny Bryan's definitive slides on how to name things FTW
+- [Project structure](https://slides.djnavarro.net/project-structure/#1) slide deck by Danielle Navarro. Also covers file paths (very important and very confusing to students these days!) and naming things. Make sure to check other talks/slides by Danielle [on her website](https://slides.djnavarro.net).
+- [365 useful functions in R](https://bookdown.org/IndrajeetPatil/R-Function-A-Day-book/) - a Twitter thread turned into a book. 
 - [Full R documentation online (including 13k+ packages)](https://www.rdocumentation.org)
 - [How to write a reproducible example](http://adv-r.had.co.nz/Reproducibility.html). If you need to ask for R help online, this is how you do it. Now in a form of R package: [reprex](http://reprex.tidyverse.org)
 - [Reserved words in R](https://stat.ethz.ch/R-manual/R-devel/library/base/html/Reserved.html). The list is short: `if`, `else`, `repeat`, `while`, `function`, `for`, `in`, `next`, `break`, `TRUE`, `FALSE`, `NULL`, `Inf`, `NaN`, `NA`, `NA_integer_`, `NA_real_`, `NA_complex_`, `NA_character_`
