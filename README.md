@@ -181,6 +181,8 @@ Shell-fu
 Apart from Wikipedia, this is a very nice overview of how the pipe and the Unix philosophy came about:
 - [Pipe: How the System Call That Ties Unix Together Came About](https://thenewstack.io/pipe-how-the-system-call-that-ties-unix-together-came-about/) by David Cassell at The New Stack.
 
+- If you are a video person, try this: [AT&T Archives: The UNIX Operating System](https://www.youtube.com/watch?v=tc4ROCJYbm0) on YouTube. 27 minutes of UNIX history, including amazing piping demo by the guy who invented it. 
+
 ### A nifty tool
 
 This little Mac utility by Jay Tuley will install an icon in Finder that opens the current folder in Terminal: [CDto](https://github.com/jbtule/cdto)
