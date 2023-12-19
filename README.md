@@ -156,6 +156,8 @@ There has been a recent proliferation of tutorials on various aspects of R, so t
 
 - Also: [dplyr vs data.table](https://atrebas.github.io/post/2019-03-03-datatable-dplyr/).
 
+- Also also: [Fastest way to edit multiple lines of code at the same time](https://stackoverflow.com/questions/71472412/fastest-way-to-edit-multiple-lines-of-code-at-the-same-time)
+
 ### Do not let Jenny Bryan set your computer on fire!
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The only two things that make <a href="https://twitter.com/JennyBryan?ref_src=twsrc%5Etfw">@JennyBryan</a> 😤😠🤯. Instead use projects + here::here() <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/GwxnHePL4n">pic.twitter.com/GwxnHePL4n</a></p>&mdash; Hadley Wickham (@hadleywickham) <a href="https://twitter.com/hadleywickham/status/940021008764846080?ref_src=twsrc%5Etfw">December 11, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
