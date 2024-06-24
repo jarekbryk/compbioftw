@@ -191,7 +191,7 @@ This little Mac utility by Jay Tuley will install an icon in Finder that opens t
 - [http://korflab.ucdavis.edu/Unix_and_Perl/](http://korflab.ucdavis.edu/Unix_and_Perl/)
 - [Software Carpentry Unix Shell lesson](https://swcarpentry.github.io/shell-novice/)
 - [explainshell.com](https://explainshell.com) will try to give you explanation for every element of a command line expression that you type (try it, it's really cool)
-- [The Best Keyboard Shortcuts for Bash](https://www.howtogeek.com/howto/ubuntu/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
+- [The Best Keyboard Shortcuts for Bash](https://www.howtogeek.com/181/keyboard-shortcuts-for-bash-command-shell-for-ubuntu-debian-suse-redhat-linux-etc/)
 - [A great BASH scripting cheatsheet](https://devhints.io/bash) from [@rstacruz](https://ricostacruz.com) at [devhints.io](https://devhints.io)
 
 ### Overview of some second-generation command-line tools
